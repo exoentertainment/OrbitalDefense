@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c1a694250f62fbeb1822ffba833716, type: 3}
+  m_Name: Probe
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  moveSpeed: 10
+  deathSpeed: 0
+  turnSpeed: 2
+  movementRadius: 100
+  maxHealth: 0
+  explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
+  explosionDuration: 0
+  explosionFrequency: 0
+  reactorExplosionPrefab: {fileID: 0}
