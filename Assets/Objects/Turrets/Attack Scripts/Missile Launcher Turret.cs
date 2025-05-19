@@ -25,13 +25,12 @@ public class MissileLauncherTurret : BaseTurret
             if (projectile != null) 
             {
                 projectile.transform.position = spawnPoint.position;
-                projectile.transform.rotation = transform.rotation;
+                Vector3 targetDir = target.transform.position - spawnPoint.position;
+                targetDir.Normalize();
+                projectile.transform.rotation = Quaternion.LookRotation(targetDir);
                 projectile.SetActive(true);
-                projectile.GetComponent<PlaceholderMissile>().SetTarget(target);
+                projectile.GetComponent<LightMissile>().SetTarget(target);
             }
-            
-            // GameObject missile = Instantiate(turretSO.projectileSO.projectilePrefab, spawnPoint.position, transform.rotation);
-            // missile.GetComponent<PlaceholderMissile>().SetTarget(target);
 
             if (turretSO.projectileSO.dischargePrefab != null)
                 Instantiate(turretSO.projectileSO.dischargePrefab, spawnPoint.position,
