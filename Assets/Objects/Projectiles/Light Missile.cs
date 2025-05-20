@@ -34,10 +34,8 @@ public class LightMissile : MonoBehaviour, IDamageable
         rb = GetComponent<Rigidbody>();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
-        StartCoroutine(DisableRoutine());
         randomTimeOffset = Random.Range(0f, 1000f);
         startTime = Time.time;
     }
@@ -63,22 +61,24 @@ public class LightMissile : MonoBehaviour, IDamageable
 
             Vector3 fwd = transform.forward;
             Vector3 toTarget = (target.transform.position - transform.position).normalized;
-            fwd = Vector3.Lerp(fwd, toTarget, (1 - swarmAmount) * guidanceSteeringPower * Time.deltaTime);
+            fwd = Vector3.Lerp(fwd, toTarget, (1 - swarmAmount) * guidanceSteeringPower * Time.fixedDeltaTime);
             transform.rotation = Quaternion.LookRotation(fwd, Vector3.up);
 
             float wiggleX = swarmAmount * (Mathf.PerlinNoise((Time.time + randomTimeOffset) * swarmFrequency, 0.2f) - 0.5f) * maxSwarmAmount;
             float wiggleY = swarmAmount * (Mathf.PerlinNoise((Time.time + randomTimeOffset) * swarmFrequency, 0.5f) - 0.5f) * maxSwarmAmount;
             float wiggleZ = swarmAmount * (Mathf.PerlinNoise((Time.time + randomTimeOffset) * swarmFrequency, 0.8f) - 0.5f) * maxSwarmAmount;
 
-            //rb.MoveRotation(Quaternion.Euler(wiggleX, wiggleY, wiggleZ) * transform.rotation);
+            //rb.MoveRotation(Quaternion.Euler(wiggleX, wiggleY, wiggleZ) * rb.rotation);
             transform.rotation = Quaternion.Euler(wiggleX, wiggleY, wiggleZ) * transform.rotation;
-            //rb.MovePosition(transform.position +(transform.rotation * Vector3.forward * (missileSO.speed * Time.deltaTime)));
-            transform.position += transform.rotation * Vector3.forward * (missileSO.speed * Time.deltaTime);
+            // rb.MovePosition(transform.position +(transform.rotation * Vector3.forward * (missileSO.speed * Time.deltaTime)));
+            //rb.MovePosition(transform.position + (Vector3.forward * (missileSO.speed * Time.fixedDeltaTime)));
+            rb.linearVelocity = transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
+            //transform.position += transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
         }
         else
         {
             FindClosestTarget();
-            transform.position += transform.rotation * Vector3.forward * (missileSO.speed * Time.deltaTime);
+            rb.linearVelocity = transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
         }
     }
 
@@ -120,9 +120,15 @@ public class LightMissile : MonoBehaviour, IDamageable
 
     public void TakeDamage(float damage)
     {
+        Instantiate(missileSO.impactPrefab, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
     }
 
+    private void OnEnable()
+    {
+        StartCoroutine(DisableRoutine());
+    }
+    
     IEnumerator DisableRoutine()
     {
         yield return new WaitForSeconds(missileSO.duration);

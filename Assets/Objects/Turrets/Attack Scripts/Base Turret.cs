@@ -22,7 +22,7 @@ public class BaseTurret : MonoBehaviour
     #endregion
 
     protected GameObject target;
-    protected GameObject priorTarget;
+
     protected float lastFireTime;
     protected float lastTimeOnTarget;
     
@@ -113,7 +113,6 @@ public class BaseTurret : MonoBehaviour
 
         if ((Time.time - lastTimeOnTarget) >= turretSO.targetLoiterTime)
         {
-            priorTarget = target;
             GetComponent<FindTarget>().SearchForTarget();
         }
     }

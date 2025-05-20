@@ -19,7 +19,7 @@ public class BaseProjectile : MonoBehaviour
 
     void Move()
     {
-        rigidbody.MovePosition(transform.position + (transform.forward * (projectileSO.speed * Time.deltaTime)));
+        rigidbody.MovePosition(transform.position + (transform.forward * (projectileSO.speed * Time.fixedDeltaTime)));
     }
 
     IEnumerator DeactivateRoutine()
