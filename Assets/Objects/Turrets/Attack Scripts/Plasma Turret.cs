@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections;
 
-public class MissileLauncherTurret : BaseTurret
+public class PlasmaTurret : BaseTurret
 {
+    [SerializeField] Light[] lights;
+    
     void Awake()
     {
         base.Awake();
@@ -19,17 +21,22 @@ public class MissileLauncherTurret : BaseTurret
         lastTimeOnTarget = Time.time;
         lastFireTime = Time.time;
 
+        foreach (Light light in lights)
+        {
+
+            light.enabled = true;
+            Debug.Log(light.isActiveAndEnabled);
+            yield return new WaitForSeconds(0.2f);
+        }
+        
         foreach (Transform spawnPoint in spawnPoints)
         {
             GameObject projectile = projectilePool.GetPooledObject(); 
             if (projectile != null) 
             {
                 projectile.transform.position = spawnPoint.position;
-                Vector3 targetDir = target.transform.position - spawnPoint.position;
-                targetDir.Normalize();
-                projectile.transform.rotation = Quaternion.LookRotation(targetDir);
+                projectile.transform.rotation = platformTurret.rotation;
                 projectile.SetActive(true);
-                projectile.GetComponent<LightMissile>().SetTarget(target);
             }
 
             if (turretSO.projectileSO.dischargePrefab != null)
@@ -39,7 +46,17 @@ public class MissileLauncherTurret : BaseTurret
             yield return new WaitForSeconds(turretSO.barrelFireDelay);
         }
         
+        foreach (Light light in lights)
+        {
+            light.enabled = false;
+        }
+        
         if(AudioManager.instance != null)
             AudioManager.instance.PlaySound(turretSO.fireSFX);
+    }
+
+    void FlashLights()
+    {
+        
     }
 }

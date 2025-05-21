@@ -16,7 +16,7 @@ MonoBehaviour:
   fireSFX: {fileID: 11400000, guid: 3661d497e38ff81e989455bce0ed3c09, type: 2}
   fireRate: 1
   baseTrackingSpeed: 50
-  targetLoiterTime: 3
+  targetLoiterTime: 1
   barrelFireDelay: 0.2
   targetLayers:
     serializedVersion: 2

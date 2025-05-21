@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f50c474bdc2e19cf8125dea9935f1ce, type: 3}
-  m_Name: Light Missile - Player
+  m_Name: Plasma Cannon - Player
   m_EditorClassIdentifier: 
-  projectileSO: {fileID: 11400000, guid: eeb0231855713233997253629cd87a55, type: 2}
-  fireSFX: {fileID: 11400000, guid: c5c975e7b25ca7c729c6231bc72097e7, type: 2}
+  projectileSO: {fileID: 11400000, guid: 9fa318e6eee917877b5b13780f4e626b, type: 2}
+  fireSFX: {fileID: 11400000, guid: 3661d497e38ff81e989455bce0ed3c09, type: 2}
   fireRate: 1
   baseTrackingSpeed: 50
   targetLoiterTime: 1
-  barrelFireDelay: 0.2
+  barrelFireDelay: 0
   targetLayers:
     serializedVersion: 2
     m_Bits: 132096

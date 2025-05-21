@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a878b4ffafdb0d86830a85bac97fa1b, type: 3}
+  m_Name: Plasma Projectile - Platform
+  m_EditorClassIdentifier: 
+  speed: 150
+  damage: 0
+  duration: 2
+  range: 150
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 9216
+  projectilePrefab: {fileID: 1823173409967616, guid: f70cb5784418120cf862aac3d791afff, type: 3}
+  dischargePrefab: {fileID: 1237854105968354, guid: 0eb429ce2b940eaa4a4c65b61730e84d, type: 3}
+  impactPrefab: {fileID: 1351045683517926, guid: 0583a9d6c12fad704bb694fff3e22d16, type: 3}

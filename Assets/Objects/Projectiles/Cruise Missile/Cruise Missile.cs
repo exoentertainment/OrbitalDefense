@@ -43,6 +43,11 @@ public class CruiseMissile : MonoBehaviour, IDamageable
             RotateTowardsTarget();
             Move();
         }
+        else if (target == null)
+        {
+            FindClosestTarget();
+            Move();
+        }
     }
 
     IEnumerator CoastPhaseRoutine()
@@ -69,7 +74,6 @@ public class CruiseMissile : MonoBehaviour, IDamageable
 
     void RotateTowardsTarget()
     {
-        Debug.Log("rotateTowardsTarget");
         Vector3 targetVector = target.transform.position - transform.position;
         targetVector.Normalize();
         Quaternion targetRotation = Quaternion.LookRotation(targetVector);
@@ -101,6 +105,29 @@ public class CruiseMissile : MonoBehaviour, IDamageable
     {
         Instantiate(missileSO.impactPrefab, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
+    }
+    
+    void FindClosestTarget()
+    {
+        Collider[] possibleTargets = Physics.OverlapSphere(transform.position, missileSO.range,
+            missileSO.targetLayers);
+
+        if (possibleTargets.Length > 0)
+        {
+            float closestEnemy = Mathf.Infinity;
+
+            for (int x = 0; x < possibleTargets.Length; x++)
+            {
+                float distanceToEnemy =
+                    Vector3.Distance(possibleTargets[x].transform.position, transform.position);
+
+                if (distanceToEnemy < closestEnemy)
+                {
+                    closestEnemy = distanceToEnemy;
+                    target = possibleTargets[x].gameObject;
+                }
+            }
+        }
     }
     
     IEnumerator DisableRoutine()

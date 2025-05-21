@@ -126,6 +126,8 @@ public class LightMissile : MonoBehaviour, IDamageable
 
     private void OnEnable()
     {
+        randomTimeOffset = Random.Range(0f, 100f);
+        startTime = Time.time;
         StartCoroutine(DisableRoutine());
     }
     

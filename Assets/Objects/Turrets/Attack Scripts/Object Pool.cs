@@ -4,16 +4,10 @@ using UnityEngine.Pool;
 
 public class ObjectPool : MonoBehaviour
 {
-    public static ObjectPool SharedInstance;
     public List<GameObject> pooledObjects;
     [SerializeField] GameObject objectToPool;
     [SerializeField] int amountToPool;
-
-    void Awake()
-    {
-        SharedInstance = this;
-    }
-
+    
     void Start()
     {
         pooledObjects = new List<GameObject>();

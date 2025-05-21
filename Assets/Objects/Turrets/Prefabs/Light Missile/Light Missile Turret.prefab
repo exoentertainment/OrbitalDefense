@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 214208579653846906}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.945, y: 0, z: 1.537}
+  m_LocalPosition: {x: -0.16, y: -2.62, z: 1.537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 552503689268398756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.945, y: 0, z: 1.537}
+  m_LocalPosition: {x: -0.16, y: 2.62, z: 1.537}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9327476b6c330e8ebbf30cec807fb54f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotatingObject: {fileID: 1576628433739550805}
+  rotatingObject: {fileID: 919527522272613694}
   turretSO: {fileID: 0}
   minRotation: -180
   maxRotation: 180
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretSO: {fileID: 0}
-  platformTurret: {fileID: 7636620726401381424}
+  platformTurret: {fileID: 7277997022896760697}
   spawnPoints:
   - {fileID: 7032611111584480983}
   - {fileID: 3420299256402839476}
@@ -296,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919527522272613694}
   m_Layer: 0
-  m_Name: Base
+  m_Name: Base Rotating
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -361,7 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7277997022896760697}
   m_Layer: 0
-  m_Name: Barrels
+  m_Name: Barrels Rotating
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -462,7 +462,8 @@ PrefabInstance:
       value: Bridge_TurretsArm (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3150019598859491598, guid: 44783bd2cc09c5c4592901971d78ee06, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44783bd2cc09c5c4592901971d78ee06, type: 3}
@@ -544,7 +545,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: e2d5e9cccfb25a6459df8bcf852ea344, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5717363835756992848, guid: bf0f1967ba9220c4b8bf692aaf8a3d71, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf0f1967ba9220c4b8bf692aaf8a3d71, type: 3}
@@ -626,7 +628,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4839310599218233201, guid: f2c0387dc609ec943819d5a04ac0ce01, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c0387dc609ec943819d5a04ac0ce01, type: 3}
@@ -708,7 +711,8 @@ PrefabInstance:
       value: Bridge_TurretLock (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7572013120823089169, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
@@ -790,7 +794,8 @@ PrefabInstance:
       value: Bridge_TurretLock (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7572013120823089169, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
@@ -872,7 +877,8 @@ PrefabInstance:
       value: Bridge_TurretLock (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7572013120823089169, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
@@ -954,7 +960,8 @@ PrefabInstance:
       value: Bridge_TurretBase (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7817913939412574593, guid: 2f14fe1550be7dd4d90660bfc544b56b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f14fe1550be7dd4d90660bfc544b56b, type: 3}
@@ -1036,7 +1043,8 @@ PrefabInstance:
       value: Bridge_TurretLock (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7572013120823089169, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e8115e121ee9f645aa63e6c40877ed8, type: 3}
@@ -1118,7 +1126,8 @@ PrefabInstance:
       value: Bridge_TurretsArm (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3150019598859491598, guid: 44783bd2cc09c5c4592901971d78ee06, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44783bd2cc09c5c4592901971d78ee06, type: 3}
@@ -1200,7 +1209,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: e2d5e9cccfb25a6459df8bcf852ea344, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 360762223518813949, guid: 247d8d6dc69be434b8445fdf59169c0c, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247d8d6dc69be434b8445fdf59169c0c, type: 3}
@@ -1282,7 +1292,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: e2d5e9cccfb25a6459df8bcf852ea344, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5717363835756992848, guid: bf0f1967ba9220c4b8bf692aaf8a3d71, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf0f1967ba9220c4b8bf692aaf8a3d71, type: 3}
@@ -1364,7 +1375,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: e2d5e9cccfb25a6459df8bcf852ea344, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5717363835756992848, guid: bf0f1967ba9220c4b8bf692aaf8a3d71, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf0f1967ba9220c4b8bf692aaf8a3d71, type: 3}
