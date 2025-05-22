@@ -18,7 +18,7 @@ public class MissileLauncherTurret : BaseTurret
     {
         lastTimeOnTarget = Time.time;
         lastFireTime = Time.time;
-
+        
         foreach (Transform spawnPoint in spawnPoints)
         {
             GameObject projectile = projectilePool.GetPooledObject(); 

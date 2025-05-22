@@ -27,7 +27,7 @@ public class FindTarget : MonoBehaviour
 
     public virtual void SearchForTarget()
     {
-        //Debug.Log("Searching for target");
+        Debug.Log("Searching for target");
         
         Collider[] possibleTargets = Physics.OverlapSphere(transform.position, turretSO.projectileSO.range, turretSO.targetLayers);
         
