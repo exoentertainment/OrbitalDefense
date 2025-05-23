@@ -42,6 +42,7 @@ public class WeaponPlatformManager : MonoBehaviour
     //If player clicks on a weapon platform slot, then call the interact function
     public void SelectWeaponPlatform(InputAction.CallbackContext context)
     {
+        
         if (context.performed)
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -52,6 +53,7 @@ public class WeaponPlatformManager : MonoBehaviour
                 {
                     if (hit.collider.gameObject.TryGetComponent<iInteractable>(out iInteractable slot)) 
                     {
+                        Debug.Log("selecting platform slot");
                         slot.Interact();
                     }
                 }

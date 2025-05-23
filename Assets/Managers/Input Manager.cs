@@ -15,12 +15,12 @@ public class InputManager : MonoBehaviour
         }
     }
 
-    public void PauseGame(InputAction.CallbackContext context)
+    public void SlowGame(InputAction.CallbackContext context)
     {
         if (context.performed)
         {
             if (Time.timeScale == 1)
-                Time.timeScale = 0;
+                Time.timeScale = 0.25f;
             else
                 Time.timeScale = 1;
         }

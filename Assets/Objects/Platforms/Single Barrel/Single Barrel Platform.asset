@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41300e50af32d0afb86d01b4e862d922, type: 3}
+  m_Name: Single Barrel Platform
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  resourceCost: 100
+  platformPrefab: {fileID: 6186289652702653088, guid: 2c726758eb97016c7932588c8e0a306b, type: 3}
+  explosionPrefab: {fileID: 1744157813687134, guid: bd79a40fba5725864a5616714e36b02b, type: 3}
+  delayBetweenExplosions: 0.2
+  platformDescription: 

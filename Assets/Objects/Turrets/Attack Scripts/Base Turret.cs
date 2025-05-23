@@ -107,7 +107,6 @@ public class BaseTurret : MonoBehaviour
     {
         if ((Time.time - lastFireTime) > turretSO.fireRate)
         {
-            Debug.Log("firing");
             if(IsLoSClear())
                 StartCoroutine(FireRoutine());
         }
