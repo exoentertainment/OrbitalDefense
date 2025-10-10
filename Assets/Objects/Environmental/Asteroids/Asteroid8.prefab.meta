@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8c423ced24e65698cba98ccde3d775eb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 144868
+  packageName: Asteroids HD
+  packageVersion: 2.1
+  assetPath: Assets/NV3D/HD_Asteroids/Prefabs/Asteroid8.prefab
+  uploadId: 703234

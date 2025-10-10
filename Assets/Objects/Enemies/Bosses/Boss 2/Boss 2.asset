@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c1a694250f62fbeb1822ffba833716, type: 3}
+  m_Name: Boss 2
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  moveSpeed: 20
+  turnSpeed: 2
+  movementRadius: 180
+  maxHealth: 150
+  explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
+  explosionFrequency: 0.5
+  explosionDuration: 2
+  numExplosions: 5
+  reactorExplosionPrefab: {fileID: 0}
+  pointValue: 0
+  shipExplosion: {fileID: 11400000, guid: 99a44a2b797e95ede992d5cba9fef69b, type: 2}

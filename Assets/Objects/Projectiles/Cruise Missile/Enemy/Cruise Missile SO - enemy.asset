@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9903850182eb4f16cbfb6c182c8f5311, type: 3}
+  m_Name: Cruise Missile SO - enemy
+  m_EditorClassIdentifier: 
+  speed: 7000
+  damage: 1
+  duration: 10
+  range: 500
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 2112
+  projectilePrefab: {fileID: 2581245511433833385, guid: 14d8e20c18a5e665ba12d7d6220e9514, type: 3}
+  dischargePrefab: {fileID: 0}
+  impactPrefab: {fileID: 1043624379182380, guid: b7219f3d6b17c38f6a28e9c5fb3d2531, type: 3}
+  coastDuration: 0.25
+  coastSpeed: 100

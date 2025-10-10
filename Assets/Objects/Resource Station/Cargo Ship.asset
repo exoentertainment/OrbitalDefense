@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfcf8add9e6be95629b41b7ac29e9f84, type: 3}
+  m_Name: Cargo Ship
+  m_EditorClassIdentifier: 
+  moveSpeed: 60
+  moveDelay: 2
+  turnSpeed: 4
+  maxHealth: 4
+  resourceAmount: 5
+  explodePrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
+  resourceStationLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048

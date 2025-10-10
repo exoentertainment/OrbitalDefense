@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Managers/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Managers/Weapon Platform Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Misc Scripts/ColliderDamagePassAlong.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Misc Scripts/spaceshower.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Health SO.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Frigate/Asteroid Grabber/Asteroid Grabber Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Light/Kamikaze/Kamikaze Attack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner ScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Platforms/Platform Scriptable Object.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Projectiles/Base Projectile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Projectiles/Light Missile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Base Turret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Cruise Missile Launcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Find Target.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Missile Launcher Turret.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Objects/Turrets/Turret SO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Project 4/Project 4/Assets/Managers/Audio Manager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Tower Defense/Assets/Objects/Enemies/Bosses/Boss 1 Movement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Tower Defense/Assets/Objects/Enemies/Bosses/Level 4 - Plasma Boss/Spawn Boss Dialogue.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Tower Defense/Assets/Objects/Enemies/Enemy Health.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Tower Defense/Assets/Objects/Managers/AudioManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2xA9dYTlLVtFctLuosXUYRIHPgW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/6000.2.2f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/6000.2.2f1/Editor/Unity" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;$PROJECT_DIR$&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Device" type="UnityDevicePlayer" factoryName="UnityAttachToDevicePlayer">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="" />
+      <created>1747370100625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747370100625</updated>
+      <workItem from="1747370103119" duration="144000" />
+      <workItem from="1747370412122" duration="157000" />
+      <workItem from="1747407680382" duration="2930000" />
+      <workItem from="1747432041625" duration="3153000" />
+      <workItem from="1747446236596" duration="1732000" />
+      <workItem from="1747494662552" duration="6140000" />
+      <workItem from="1747529786733" duration="5559000" />
+      <workItem from="1747594346477" duration="4694000" />
+      <workItem from="1747674723202" duration="16681000" />
+      <workItem from="1747756935056" duration="919000" />
+      <workItem from="1747778708604" duration="9755000" />
+      <workItem from="1747885905594" duration="3462000" />
+      <workItem from="1747939069580" duration="2452000" />
+      <workItem from="1747955283537" duration="4180000" />
+      <workItem from="1748020891708" duration="617000" />
+      <workItem from="1748021834155" duration="3447000" />
+      <workItem from="1748130172145" duration="4663000" />
+      <workItem from="1748142277606" duration="105000" />
+      <workItem from="1748142429462" duration="39000" />
+      <workItem from="1748142511567" duration="3230000" />
+      <workItem from="1748186433953" duration="3695000" />
+      <workItem from="1748275055659" duration="2833000" />
+      <workItem from="1748277908387" duration="4544000" />
+      <workItem from="1748310506812" duration="667000" />
+      <workItem from="1748373092944" duration="10136000" />
+      <workItem from="1748456665004" duration="9828000" />
+      <workItem from="1748491710242" duration="447000" />
+      <workItem from="1748551723228" duration="4518000" />
+      <workItem from="1748648688395" duration="2213000" />
+      <workItem from="1748651568990" duration="488000" />
+      <workItem from="1748799644054" duration="974000" />
+      <workItem from="1748904239922" duration="186000" />
+      <workItem from="1748910278727" duration="2101000" />
+      <workItem from="1748918357256" duration="1913000" />
+      <workItem from="1748973213276" duration="285000" />
+      <workItem from="1748973622632" duration="732000" />
+      <workItem from="1749000006738" duration="2087000" />
+      <workItem from="1749071800666" duration="988000" />
+      <workItem from="1749150098040" duration="700000" />
+      <workItem from="1749150867210" duration="3098000" />
+      <workItem from="1749158753002" duration="810000" />
+      <workItem from="1749230721783" duration="2406000" />
+      <workItem from="1749234220318" duration="609000" />
+      <workItem from="1749245814578" duration="2423000" />
+      <workItem from="1749254421904" duration="1789000" />
+      <workItem from="1749341598911" duration="2746000" />
+      <workItem from="1749401352188" duration="4385000" />
+      <workItem from="1749419049196" duration="1453000" />
+      <workItem from="1749694338883" duration="807000" />
+      <workItem from="1749768033597" duration="3586000" />
+      <workItem from="1749782795279" duration="501000" />
+      <workItem from="1749867472685" duration="66000" />
+      <workItem from="1749947944621" duration="1005000" />
+      <workItem from="1750015486388" duration="701000" />
+      <workItem from="1750039675692" duration="114000" />
+      <workItem from="1750042109370" duration="845000" />
+      <workItem from="1750291100903" duration="2419000" />
+      <workItem from="1750303794989" duration="380000" />
+      <workItem from="1750347940659" duration="679000" />
+      <workItem from="1750387183029" duration="2373000" />
+      <workItem from="1750389661254" duration="2127000" />
+      <workItem from="1750451602623" duration="1804000" />
+      <workItem from="1750528151645" duration="5643000" />
+      <workItem from="1750644420410" duration="1492000" />
+      <workItem from="1750711535357" duration="4101000" />
+      <workItem from="1750866861142" duration="8458000" />
+      <workItem from="1750895211928" duration="4685000" />
+      <workItem from="1750984845183" duration="3828000" />
+      <workItem from="1751066410878" duration="3026000" />
+      <workItem from="1751155213739" duration="2779000" />
+      <workItem from="1751217743188" duration="3243000" />
+      <workItem from="1751320022607" duration="3221000" />
+      <workItem from="1752274627486" duration="701000" />
+      <workItem from="1752375500953" duration="2331000" />
+      <workItem from="1752467845429" duration="1200000" />
+      <workItem from="1752619488543" duration="3491000" />
+      <workItem from="1752694639448" duration="5179000" />
+      <workItem from="1752720648411" duration="1416000" />
+      <workItem from="1752722080374" duration="1463000" />
+      <workItem from="1752789410712" duration="5538000" />
+      <workItem from="1752806196732" duration="47000" />
+      <workItem from="1752806271908" duration="1702000" />
+      <workItem from="1752870898140" duration="69000" />
+      <workItem from="1752870995179" duration="10638000" />
+      <workItem from="1752885551163" duration="1662000" />
+      <workItem from="1752972767267" duration="3374000" />
+      <workItem from="1753210503794" duration="1586000" />
+      <workItem from="1754341169406" duration="821000" />
+      <workItem from="1754436820792" duration="2238000" />
+      <workItem from="1754945044246" duration="732000" />
+      <workItem from="1755043078190" duration="5007000" />
+      <workItem from="1755108548799" duration="3899000" />
+      <workItem from="1755202243016" duration="5618000" />
+      <workItem from="1755298582943" duration="3303000" />
+      <workItem from="1755310262913" duration="98000" />
+      <workItem from="1756065046733" duration="2165000" />
+      <workItem from="1756493917463" duration="3335000" />
+      <workItem from="1756598208523" duration="3024000" />
+      <workItem from="1756666170220" duration="4878000" />
+      <workItem from="1756753500414" duration="300000" />
+      <workItem from="1756753878513" duration="2085000" />
+      <workItem from="1756853515045" duration="867000" />
+      <workItem from="1756931914364" duration="1299000" />
+      <workItem from="1756956823897" duration="1900000" />
+      <workItem from="1757101399419" duration="8008000" />
+      <workItem from="1757205754913" duration="1650000" />
+      <workItem from="1757560330327" duration="1586000" />
+      <workItem from="1757609092973" duration="3138000" />
+      <workItem from="1757647091803" duration="2160000" />
+      <workItem from="1758139113005" duration="10820000" />
+      <workItem from="1758231578604" duration="3708000" />
+      <workItem from="1758253048857" duration="1303000" />
+      <workItem from="1758316754429" duration="2124000" />
+      <workItem from="1758413309863" duration="3127000" />
+      <workItem from="1758483757174" duration="3355000" />
+      <workItem from="1758505634840" duration="2013000" />
+      <workItem from="1758597719445" duration="2148000" />
+      <workItem from="1758658045491" duration="1147000" />
+      <workItem from="1759185722202" duration="1078000" />
+      <workItem from="1759365545159" duration="720000" />
+      <workItem from="1759376819955" duration="1552000" />
+      <workItem from="1759894163932" duration="1904000" />
+      <workItem from="1759943722202" duration="1206000" />
+      <workItem from="1759981115891" duration="1534000" />
+      <workItem from="1760068943989" duration="392000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

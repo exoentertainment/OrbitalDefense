@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7c1a694250f62fbeb1822ffba833716, type: 3}
+  m_Name: Repair Frigate
+  m_EditorClassIdentifier: 
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  moveSpeed: 40
+  turnSpeed: 2
+  minMovementRadius: 0
+  maxMovementRadius: 0
+  evadeDistance: 0
+  minHealth: 5
+  maxHealth: 10
+  explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
+  explosionFrequency: 0.5
+  explosionDuration: 2
+  numExplosions: 0
+  reactorExplosionPrefab: {fileID: 0}
+  pointValue: 20
+  shipExplosion: {fileID: 0}
