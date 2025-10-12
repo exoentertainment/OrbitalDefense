@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="" />
+    <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Managers/Managers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/Managers.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +266,10 @@
       <workItem from="1759894163932" duration="1904000" />
       <workItem from="1759943722202" duration="1206000" />
       <workItem from="1759981115891" duration="1534000" />
-      <workItem from="1760068943989" duration="392000" />
+      <workItem from="1760068943989" duration="1028000" />
+      <workItem from="1760217258150" duration="3334000" />
+      <workItem from="1760233281020" duration="1995000" />
+      <workItem from="1760242213899" duration="2051000" />
     </task>
     <servers />
   </component>
