@@ -504,7 +504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -521,7 +521,7 @@ PrefabInstance:
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 67688c5db0cd69251b11dfa81d80dca4, type: 2}
+      objectReference: {fileID: 11400000, guid: 326fdeeb32372afa99f6a0427e96c709, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -664,7 +664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -681,7 +681,7 @@ PrefabInstance:
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 67688c5db0cd69251b11dfa81d80dca4, type: 2}
+      objectReference: {fileID: 11400000, guid: 326fdeeb32372afa99f6a0427e96c709, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1277,7 +1277,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3548599555785204554, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6638383810555868705, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       insertIndex: -1
@@ -1582,7 +1583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -1599,7 +1600,7 @@ PrefabInstance:
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 67688c5db0cd69251b11dfa81d80dca4, type: 2}
+      objectReference: {fileID: 11400000, guid: 326fdeeb32372afa99f6a0427e96c709, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1614,6 +1615,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e4b66cb982caf1209a05058da0b49df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1332451665 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3559855630273367268, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+  m_PrefabInstance: {fileID: 5156149139920249070}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e1efe7202425b438b853c80a387bf02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1688882039
@@ -2060,12 +2072,32 @@ PrefabInstance:
       objectReference: {fileID: 1053434290}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: timeBetweenWaves
-      value: 30
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: enemySpawners.m_PersistentCalls.m_Calls.Array.size
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 617436689}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1332451665}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: enemySpawners.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
@@ -2091,6 +2123,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 446945378}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SpawnBoss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetLastWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: enemySpawners.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -2115,6 +2163,14 @@ PrefabInstance:
       value: SpawnEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: EnemySpawner, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: enemySpawners.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: EnemySpawner, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -2125,6 +2181,14 @@ PrefabInstance:
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: enemySpawners.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: EnemySpawner, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: enemySpawners.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

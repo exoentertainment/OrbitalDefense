@@ -17,7 +17,7 @@ public class SpawnControl : MonoBehaviour
     private int currentWave;
     bool isSpawning;
     float lastSpawnTime;
-    private bool isBossLevel;
+    private bool isBossSpawned;
 
     private void Start()
     {
@@ -41,18 +41,23 @@ public class SpawnControl : MonoBehaviour
                 enemySpawners?.Invoke();
                 waveText.text = "Wave " + (currentWave + 1) + " of " + numWaves;
                 lastSpawnTime = Time.time;
-            }
-            else
-            {
-                bossSpawner?.Invoke();
-                
-                if(bossSpawner == null)
+                currentWave++;
+
+                if (currentWave >= numWaves && bossSpawner.GetPersistentEventCount() == 0)
                 {
+                    Debug.Log("end of last wave");
                     LevelManager.instance.SetLastWave();
                 }
             }
-            
-            currentWave++;
+            else
+            {
+                if (!isBossSpawned && bossSpawner.GetPersistentEventCount() > 0) 
+                {
+                    isBossSpawned = true;
+                    bossSpawner?.Invoke();
+                    LevelManager.instance.SetLastWave();
+                }
+            }
         }
         
         //StartCoroutine(SpawnEnemyRoutine());

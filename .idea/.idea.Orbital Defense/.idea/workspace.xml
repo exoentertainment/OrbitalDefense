@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Managers/Managers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/Managers.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Managers/Spawn Control.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/Spawn Control.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 1.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +268,8 @@
       <workItem from="1760068943989" duration="1028000" />
       <workItem from="1760217258150" duration="3334000" />
       <workItem from="1760233281020" duration="1995000" />
-      <workItem from="1760242213899" duration="2051000" />
+      <workItem from="1760242213899" duration="2515000" />
+      <workItem from="1760313100348" duration="1818000" />
     </task>
     <servers />
   </component>

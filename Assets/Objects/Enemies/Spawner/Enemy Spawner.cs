@@ -10,32 +10,15 @@ public class EnemySpawner : MonoBehaviour
     #region -- Serialized Fields --
     
     [Header("Variables")]
-    [SerializeField] float timeBetweenWaves;
-    [SerializeField] private bool isBossSpawner;
     [SerializeField] GameObject bossPrefab;
     
     [FormerlySerializedAs("spawnerSO")]
     [Header("Scriptable Object")] 
     [SerializeField] private EnemySpawnerScriptableObject[] spawnWavesSO;
     
-    [Header("Component")] 
-    [SerializeField] private Transform spawnPoint;
-    
     #endregion
     
     int currentWave;
-    bool isSpawning;
-
-    private void Start()
-    {
-        SpawnEnemy();
-    }
-
-    private void Update()
-    {
-        // if(!isSpawning)
-        //     SpawnEnemy();
-    }
 
     public void SpawnEnemy()
     {
