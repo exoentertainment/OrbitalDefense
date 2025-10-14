@@ -83,14 +83,17 @@ public class LaserTurret : BaseTurret
         {
             if(Physics.Linecast(raycastOrigin.position, raycastOrigin.position + (raycastOrigin.transform.forward * turretSO.projectileSO.range), out RaycastHit hit))
             {
+                
+                hit.collider.gameObject.TryGetComponent<IDamageable>(out IDamageable targetHit);
+                if (targetHit != null)
+                {
+                    targetHit.TakeDamage(turretSO.projectileSO.damage * Time.deltaTime);
+                }
+                
                 if(laserImpactPrefab != null)
                     Instantiate(laserImpactPrefab, hit.point, Quaternion.identity);
             }
-            
-            target.TryGetComponent<IDamageable>(out IDamageable targetHit);
-            if (targetHit != null)
-                targetHit.TakeDamage(turretSO.projectileSO.damage * Time.deltaTime);
-            
+
             yield return new WaitForSeconds(0.1f);
         }
     }

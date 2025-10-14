@@ -4,6 +4,7 @@ using System.Collections;
 public class PlasmaTurret : BaseTurret
 {
     [SerializeField] Light[] lights;
+    [SerializeField] private float lightActivationDelay;
     
     void Awake()
     {
@@ -23,10 +24,8 @@ public class PlasmaTurret : BaseTurret
 
         foreach (Light light in lights)
         {
-
             light.enabled = true;
-            Debug.Log(light.isActiveAndEnabled);
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(lightActivationDelay);
         }
         
         foreach (Transform spawnPoint in spawnPoints)
