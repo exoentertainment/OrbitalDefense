@@ -1,10 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
-public class LightMissile : MonoBehaviour, IDamageable
+public class PlasmaMissile : MonoBehaviour
 {
     [Tooltip("The maximum amount of swarm.")]
     [SerializeField] protected float maxSwarmAmount = 20;
@@ -25,6 +25,9 @@ public class LightMissile : MonoBehaviour, IDamageable
     protected float randomTimeOffset;
     
     [SerializeField] MissileSO missileSO;
+    [SerializeField] private int damageRadius;
+
+    [SerializeField] float collateralDamagePercent;
 
     private Rigidbody rb;
     private GameObject target;
@@ -110,8 +113,29 @@ public class LightMissile : MonoBehaviour, IDamageable
         if(missileSO.impactPrefab != null)
          Instantiate(missileSO.impactPrefab, other.contacts[0].point, Quaternion.identity);
         
-        other.gameObject.GetComponent<IDamageable>()?.TakeDamage(missileSO.damage);
+        //other.gameObject.GetComponent<IDamageable>()?.TakeDamage(missileSO.damage);
+        Collider[] hits = Physics.OverlapSphere(transform.position, damageRadius, missileSO.targetLayers);
+        List<GameObject> possibleCollateralTargets =  new List<GameObject>();
         
+        foreach (Collider hit in hits)
+        {
+            possibleCollateralTargets.Add(hit.transform.root.gameObject);
+        }
+        
+        List<GameObject> collateralTargets = possibleCollateralTargets.Distinct().ToList();
+        
+        foreach (GameObject collateralTarget in collateralTargets)
+        {
+            if (collateralTarget == target.transform.root.gameObject)
+            {
+                collateralTarget.GetComponent<IDamageable>()?.TakeDamage(missileSO.damage);
+            }
+            else if( collateralTarget != target.transform.root.gameObject)
+            {
+                collateralTarget.GetComponent<IDamageable>()?.TakeDamage((missileSO.damage * collateralDamagePercent));
+            }
+        }
+
         gameObject.SetActive(false);
     }
 

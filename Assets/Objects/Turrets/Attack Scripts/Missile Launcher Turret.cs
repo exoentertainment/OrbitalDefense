@@ -40,7 +40,14 @@ public class MissileLauncherTurret : BaseTurret
                 Vector3 targetDir = target.transform.position - spawnPoint.position;
                 targetDir.Normalize();
                 projectile.transform.rotation = Quaternion.LookRotation(targetDir);
-                projectile.GetComponent<LightMissile>().SetTarget(target);
+                
+                projectile.TryGetComponent<LightMissile>(out LightMissile lightMissile);
+                if(lightMissile != null)
+                    lightMissile.SetTarget(target);
+                
+                projectile.TryGetComponent<PlasmaMissile>(out PlasmaMissile plasmaMissile);
+                if(plasmaMissile != null)
+                    plasmaMissile.SetTarget(target);
             }
 
             if (turretSO.projectileSO.dischargePrefab != null)

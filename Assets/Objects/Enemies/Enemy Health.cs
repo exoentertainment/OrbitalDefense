@@ -18,7 +18,8 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
     [SerializeField] private Transform[] explosionPoints;
     
     #endregion
-    
+
+    private float maxHealth;
     float currentHealth;
     bool isDead;
 
@@ -27,6 +28,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
     private void Start()
     {
         currentHealth = Random.Range(enemySO.minHealth, enemySO.maxHealth + 1);
+        maxHealth = currentHealth;
     }
 
     private void Update()
@@ -111,6 +113,6 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
     
     void UpdateHealthBar()
     {
-        healthSlider.value = currentHealth/enemySO.maxHealth;
+        healthSlider.value = currentHealth/maxHealth;
     }
 }
