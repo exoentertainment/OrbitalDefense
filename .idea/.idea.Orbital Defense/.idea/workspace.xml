@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Missile/Plasma Missile Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Missile/Plasma Missile Platform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Light Missile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Light Missile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Player/Plasma Missile - player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Player/Plasma Missile - player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Player/Plasma Missile - player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Player/Plasma Missile - player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Missile Launcher Turret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Missile Launcher Turret.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Missile/Plasma Missile - Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Missile/Plasma Missile - Player.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Testing Planet.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Testing Planet.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -277,7 +270,8 @@
       <workItem from="1760313100348" duration="1818000" />
       <workItem from="1760325813475" duration="886000" />
       <workItem from="1760410579768" duration="1874000" />
-      <workItem from="1760486376969" duration="5139000" />
+      <workItem from="1760486376969" duration="5214000" />
+      <workItem from="1760670385938" duration="821000" />
     </task>
     <servers />
   </component>
