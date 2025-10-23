@@ -56,7 +56,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
     {
         isDead = true;
         
-        if(currentHealth <= 0)
+        if(currentHealth <= 0 && ResourceManager.instance != null)
             ResourceManager.instance.IncreaseResources(enemySO.pointValue);
         
         //Invoke onDeath event

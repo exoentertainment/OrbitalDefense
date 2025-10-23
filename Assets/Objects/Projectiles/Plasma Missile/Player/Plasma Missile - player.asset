@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1df297eb31893aff3b7b68a8c724a2ed, type: 3}
   m_Name: Plasma Missile - player
   m_EditorClassIdentifier: 
-  speed: 1500
+  speed: 5000
   damage: 1
   duration: 5
   range: 400

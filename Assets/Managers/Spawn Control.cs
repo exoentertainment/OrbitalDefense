@@ -39,14 +39,17 @@ public class SpawnControl : MonoBehaviour
             if (currentWave < numWaves)
             {
                 enemySpawners?.Invoke();
-                waveText.text = "Wave " + (currentWave + 1) + " of " + numWaves;
+                
+                if(waveText != null)
+                    waveText.text = "Wave " + (currentWave + 1) + " of " + numWaves;
+                
                 lastSpawnTime = Time.time;
                 currentWave++;
 
                 if (currentWave >= numWaves && bossSpawner.GetPersistentEventCount() == 0)
                 {
-                    Debug.Log("end of last wave");
-                    LevelManager.instance.SetLastWave();
+                    if(LevelManager.instance != null)
+                        LevelManager.instance.SetLastWave();
                 }
             }
             else

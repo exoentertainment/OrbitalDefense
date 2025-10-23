@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a878b4ffafdb0d86830a85bac97fa1b, type: 3}
   m_Name: Plasma Projectile - Platform
   m_EditorClassIdentifier: 
-  speed: 150
+  speed: 500
   damage: 5
   duration: 2
-  range: 150
+  range: 300
   targetLayers:
     serializedVersion: 2
     m_Bits: 394240

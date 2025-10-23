@@ -11,8 +11,11 @@ public class WeaponPlatformSlot : MonoBehaviour, iInteractable
     
     private void Start()
     {
-        WeaponPlatformManager.instance.disablePlatformMeshesEvent.AddListener(DisableMeshRenderer);
-        WeaponPlatformManager.instance.enablePlatformMeshesEvent.AddListener(EnableMeshRenderer);
+        if (WeaponPlatformManager.instance != null)
+        {
+            WeaponPlatformManager.instance.disablePlatformMeshesEvent.AddListener(DisableMeshRenderer);
+            WeaponPlatformManager.instance.enablePlatformMeshesEvent.AddListener(EnableMeshRenderer);
+        }
     }
 
     void DisableMeshRenderer()

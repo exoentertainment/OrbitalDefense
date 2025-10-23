@@ -57,9 +57,6 @@ public class RepairFriendly : MonoBehaviour
                     target = potentialTargets[x].transform.root.gameObject;
                 }
             }
-            
-            if(target != null)
-                Debug.Log(target.name);
         }
     }
 
@@ -69,19 +66,20 @@ public class RepairFriendly : MonoBehaviour
         { 
             lastRepairTime = Time.time;
 
-            if (target.TryGetComponent<IRepairable>(out IRepairable repairTarget))
-            {
-                if (repairTarget.GetHealth() < 1)
+            if(target != null)
+                if (target.TryGetComponent<IRepairable>(out IRepairable repairTarget))
                 {
-                    repairParticles.gameObject.transform.LookAt(target.transform);
-                    repairParticles.Play();
+                    if (repairTarget.GetHealth() < 1)
+                    {
+                        repairParticles.gameObject.transform.LookAt(target.transform);
+                        repairParticles.Play();
 
-                    repairTarget.RepairHealth(repairAmount);
+                        repairTarget.RepairHealth(repairAmount);
+                    }
+
+                    if (repairTarget.GetHealth() >= 1)
+                        target = null;
                 }
-
-                if (repairTarget.GetHealth() >= 1)
-                    target = null;
-            }
         }
     }
 
