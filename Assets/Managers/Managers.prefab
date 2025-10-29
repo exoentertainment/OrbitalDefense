@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8083683d4728bb965999ce852718a9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicClips: {fileID: 0}
+  musicClips: {fileID: 11400000, guid: 480a30e63316c12579a96e51ffca18a6, type: 2}
   uiAudioClips: {fileID: 11400000, guid: 17cc60eea5b65f167801e1ef7c623d2a, type: 2}
   vfxClips: {fileID: 0}
 --- !u!82 &539296662779025765
@@ -695,6 +695,10 @@ MonoBehaviour:
   enemySpawners:
     m_PersistentCalls:
       m_Calls: []
+  bossSpawner:
+    m_PersistentCalls:
+      m_Calls: []
+  waveText: {fileID: 0}
 --- !u!1 &5712227311738609948
 GameObject:
   m_ObjectHideFlags: 0

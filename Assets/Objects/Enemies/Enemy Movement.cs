@@ -79,16 +79,18 @@ public class EnemyMovement : MonoBehaviour
 
             for (int x = 0; x < possibleTargets.Length; x++)
             {
-                float distanceToEnemy =
-                    Vector3.Distance(possibleTargets[x].transform.position, transform.position);
+                target = possibleTargets[Random.Range(0, possibleTargets.Length)].gameObject;
                 
-                if (distanceToEnemy < closestEnemy)
-                {
-                    closestEnemy = distanceToEnemy;
-                    // target = possibleTargets[x].transform.root.gameObject;
-                    target = possibleTargets[x].transform.gameObject;
-                    startTime =  Time.time;
-                }
+                // float distanceToEnemy =
+                //     Vector3.Distance(possibleTargets[x].transform.position, transform.position);
+                //
+                // if (distanceToEnemy < closestEnemy)
+                // {
+                //     closestEnemy = distanceToEnemy;
+                //     // target = possibleTargets[x].transform.root.gameObject;
+                //     target = possibleTargets[x].transform.gameObject;
+                //     startTime =  Time.time;
+                // }
             }
         }
         

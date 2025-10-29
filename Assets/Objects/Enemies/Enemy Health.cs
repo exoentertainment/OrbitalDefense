@@ -69,12 +69,15 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
 
     IEnumerator SpawnExplosionsRoutine()
     {
+        // if(AudioManager.instance != null)
+        //     AudioManager.instance.PlaySound(enemySO.shipExplosion);
+                    
         for (int i = 0; i < enemySO.numExplosions; i++)
         {
             Instantiate(enemySO.explosionPrefab, explosionPoints[Random.Range(0, explosionPoints.Length)].position, Quaternion.identity);
                 
-            // if(AudioManager.instance != null)
-            //     AudioManager.instance.PlaySound(enemySO.shipExplosion);
+            if(AudioManager.instance != null)
+                AudioManager.instance.PlaySound(enemySO.shipExplosion);
             
             // if(CameraManager.instance.IsObjectInView(gameObject.transform))
             //     AudioManager.instance.PlayPlatformExplosion();

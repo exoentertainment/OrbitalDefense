@@ -15,7 +15,7 @@ MonoBehaviour:
   projectileSO: {fileID: 11400000, guid: eeb0231855713233997253629cd87a55, type: 2}
   fireSFX: {fileID: 11400000, guid: c5c975e7b25ca7c729c6231bc72097e7, type: 2}
   fireRate: 2
-  baseTrackingSpeed: 50
+  baseTrackingSpeed: 100
   barrelFireDelay: 0.2
   targetLayers:
     serializedVersion: 2

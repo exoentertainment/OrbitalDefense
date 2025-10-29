@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
-using VHierarchy.Libs;
 
 public class SpawnControl : MonoBehaviour
 {

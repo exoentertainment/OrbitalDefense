@@ -7,7 +7,7 @@ public class PlatformScriptableObject : ScriptableObject
     public int resourceCost;
     public GameObject platformPrefab;
     public GameObject explosionPrefab;
-    public float delayBetweenExplosions;
+    public float explosionFrequency;
     public int numExplosions;
     public string platformDescription;
     public AudioClipSO explosionSFX;

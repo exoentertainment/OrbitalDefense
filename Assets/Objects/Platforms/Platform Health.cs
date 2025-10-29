@@ -24,10 +24,6 @@ public class PlatformHealth : MonoBehaviour, IDamageable
     [Header("Feedbacks")]
     [SerializeField] MMFeedbacks deathFeedback;
 
-    [Header("Variables")] 
-    [SerializeField] private float minExplosionForce;
-    [SerializeField] private float maxExplosionForce;
-
     #endregion
     
     float currentHealth; 
@@ -78,33 +74,15 @@ public class PlatformHealth : MonoBehaviour, IDamageable
         {
             Instantiate(healthSO.explosionPrefab, explosionPoints[Random.Range(0, explosionPoints.Length)].position, Quaternion.identity);
             
-            // if(CameraManager.instance.IsObjectInView(gameObject.transform))
-            //     AudioManager.instance.PlayPlatformExplosion();
+            if(AudioManager.instance != null)
+                AudioManager.instance.PlaySound(healthSO.explosionSFX);
                 
             deathFeedback?.PlayFeedbacks();
-            //PushSegmentAway(i);
             
-            yield return new WaitForSeconds(healthSO.delayBetweenExplosions);
-            
-            Instantiate(healthSO.explosionPrefab, explosionPoints[i].position, Quaternion.identity);
-            
-            yield return new WaitForSeconds(healthSO.delayBetweenExplosions);
+            yield return new WaitForSeconds(healthSO.explosionFrequency);
         }
         
         Destroy(gameObject);
-    }
-
-    void PushSegmentAway(int segment)
-    {
-        GetComponent<Rigidbody>().AddExplosionForce(Random.Range(minExplosionForce, maxExplosionForce), transform.position, 500);
-        
-        Transform[] childTransforms = explosionPoints[segment].gameObject.GetComponentsInChildren<Transform>();
-
-        foreach (Transform child in childTransforms)
-        {
-            child.gameObject.AddComponent<Rigidbody>();
-            child.gameObject.GetComponent<Rigidbody>().AddExplosionForce(Random.Range(minExplosionForce, maxExplosionForce), transform.position, 10);
-        }
     }
     
     void UpdateHealthBar()

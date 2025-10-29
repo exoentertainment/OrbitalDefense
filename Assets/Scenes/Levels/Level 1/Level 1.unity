@@ -823,7 +823,7 @@ MonoBehaviour:
     The space
     bar slows the game to 25% speed.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4d0bb7337f597634b94b9005947e8e28, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7c954dac1de116b478a8154de93b2b6c, type: 2}
   m_sharedMaterial: {fileID: 7503143391497007800, guid: 4d0bb7337f597634b94b9005947e8e28, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -889,7 +889,7 @@ MonoBehaviour:
   m_margin: {x: -119.66785, y: -13.698425, z: -132.90771, w: -91.90753}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &503995751
@@ -1247,8 +1247,8 @@ MonoBehaviour:
     The right
     mouse button allows for camera free aim.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4d0bb7337f597634b94b9005947e8e28, type: 2}
-  m_sharedMaterial: {fileID: 7503143391497007800, guid: 4d0bb7337f597634b94b9005947e8e28, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7c954dac1de116b478a8154de93b2b6c, type: 2}
+  m_sharedMaterial: {fileID: 9199864149694275698, guid: 7c954dac1de116b478a8154de93b2b6c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 21.25
   m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1324,85 +1324,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669752911}
   m_CullTransparentMesh: 1
---- !u!1 &691801399
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 691801402}
-  - component: {fileID: 691801401}
-  - component: {fileID: 691801400}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &691801400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691801399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
-  m_ScrollDeltaPerTick: 6
---- !u!114 &691801401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691801399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &691801402
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691801399}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &803321375 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6445308523812093395, guid: 571f157ab55df7c43ad27777c063e74e, type: 3}
@@ -1904,6 +1825,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -150
       objectReference: {fileID: 0}
+    - target: {fileID: 3688785221730439549, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3744788238355405930, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1975,6 +1900,10 @@ PrefabInstance:
     - target: {fileID: 6757263716808882189, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198479224968651879, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8209707451045018797, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2121,7 +2050,7 @@ MonoBehaviour:
   m_text: Holding the alt key brings up all available build spots in blue. Click
     on the buildspots to bring up the  build menu.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4d0bb7337f597634b94b9005947e8e28, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7c954dac1de116b478a8154de93b2b6c, type: 2}
   m_sharedMaterial: {fileID: 7503143391497007800, guid: 4d0bb7337f597634b94b9005947e8e28, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2187,7 +2116,7 @@ MonoBehaviour:
   m_margin: {x: -119.66785, y: -13.698425, z: -132.90771, w: -91.90753}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1124776826
@@ -3034,7 +2963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1950780416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3198,6 +3127,10 @@ PrefabInstance:
       propertyPath: LoadNextLevelWindow
       value: 
       objectReference: {fileID: 1081356940}
+    - target: {fileID: 1209115187264471225, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: musicClips
+      value: 
+      objectReference: {fileID: 11400000, guid: 480a30e63316c12579a96e51ffca18a6, type: 2}
     - target: {fileID: 3237489587865161154, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: resourceText
       value: 
@@ -3228,7 +3161,7 @@ PrefabInstance:
       objectReference: {fileID: 1053434290}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: timeBetweenWaves
-      value: 5
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.size
@@ -3411,7 +3344,6 @@ SceneRoots:
   - {fileID: 5156149139920249070}
   - {fileID: 1962993853}
   - {fileID: 1081356938}
-  - {fileID: 691801402}
   - {fileID: 74931543}
   - {fileID: 617436688}
   - {fileID: 1293418998}

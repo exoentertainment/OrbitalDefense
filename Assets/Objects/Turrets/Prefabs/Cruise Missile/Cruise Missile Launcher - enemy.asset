@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Cruise Missile Launcher - enemy
   m_EditorClassIdentifier: 
   projectileSO: {fileID: 11400000, guid: dc929a5fbafd731df9ec1c5557c671bd, type: 2}
-  fireSFX: {fileID: 11400000, guid: c5c975e7b25ca7c729c6231bc72097e7, type: 2}
+  fireSFX: {fileID: 11400000, guid: c4952f7844ad400acaf37d1885d6bf85, type: 2}
   fireRate: 5
   baseTrackingSpeed: 0
-  barrelFireDelay: 0.25
+  barrelFireDelay: 1
   targetLayers:
     serializedVersion: 2
     m_Bits: 2112

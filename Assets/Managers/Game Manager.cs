@@ -39,6 +39,9 @@ public class GameManager : MonoBehaviour
         }
     
         instance = this;
+        
+        if(AudioManager.instance != null)
+            AudioManager.instance.PlayMusic(musicTrack);
     }
 
     public void AddPlanet()

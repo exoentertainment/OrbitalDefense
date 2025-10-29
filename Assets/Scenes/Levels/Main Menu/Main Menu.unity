@@ -265,11 +265,7 @@ MonoBehaviour:
   weaponPlatformsSO:
   - {fileID: 11400000, guid: 2ce547c7b4d05c6dbbd74a1b2039cee7, type: 2}
   - {fileID: 11400000, guid: 7f85b29f4bd205e3fb8399d3550054a8, type: 2}
-  - {fileID: 11400000, guid: 2c33b9843cdd155f383c9c9361fc519c, type: 2}
-  - {fileID: 11400000, guid: 753bd613542cbf7d382a7e658e26671e, type: 2}
   - {fileID: 11400000, guid: aa6ee436a40759250b72d85309ecd19a, type: 2}
-  - {fileID: 11400000, guid: a80eba31b894434d7a9857bac65e58ed, type: 2}
-  - {fileID: 11400000, guid: 09ea2e76b23578b8d8b609ce6dbf0d0b, type: 2}
 --- !u!4 &201513461
 Transform:
   m_ObjectHideFlags: 0
@@ -3024,7 +3020,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 50}
+  m_AnchoredPosition: {x: -40, y: 65}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1931036668
@@ -3336,7 +3332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: timeBetweenWaves
-      value: 30
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.size

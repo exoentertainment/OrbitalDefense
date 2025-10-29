@@ -15,7 +15,7 @@ public class MainMenuButtons : MonoBehaviour
 
     public void Settings()
     {
-        
+        GameObject window = (GameObject)Instantiate(Resources.Load("Settings Menu"));
     }
 
     public void Quit()
