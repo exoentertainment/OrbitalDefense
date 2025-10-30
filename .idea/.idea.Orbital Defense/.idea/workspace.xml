@@ -6,47 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Managers/Game Manager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/Game Manager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Managers/Managers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/Managers.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Managers/Spawn Control.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Managers/Spawn Control.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Misc Scripts/Main Menu Buttons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Misc Scripts/Main Menu Buttons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Misc Scripts/Tutorial events.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Misc Scripts/Tutorial events.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Health.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Probe/Planet CameraTimeline.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Probe/Planet CameraTimeline.playable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Probe/ProbeTimeline.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Probe/ProbeTimeline.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Kamikaze/Kamikaze Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Kamikaze/Kamikaze Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Kamikaze/Kamikaze.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Kamikaze/Kamikaze.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Probe/Probe.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Light/Probe/Probe.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Spawner/Enemy Spawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Dual Barrel/Dual Barrel Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Dual Barrel/Dual Barrel Platform.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Light Missile/Light Missile Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Light Missile/Light Missile Platform.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Platform Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Platform Health.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Platform Scriptable Object.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Platform Scriptable Object.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Single Barrel/Single Barrel Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Single Barrel/Single Barrel Platform.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Health Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Basic Projectile/Player/Basic Projectile - Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Basic Projectile/Player/Basic Projectile - Platform.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Basic Gun/Basic Cannon - Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Basic Gun/Basic Cannon - Player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Basic Gun/SCIWeap_Single Shot Bass Heavy 12_DDUMAIS_NONE.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Basic Gun/SCIWeap_Single Shot Bass Heavy 12_DDUMAIS_NONE.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Cruise Missile/Cruise Missile Launcher - enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Cruise Missile/Cruise Missile Launcher - enemy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Cruise Missile/Cruise Missile Launcher - player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Cruise Missile/Cruise Missile Launcher - player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Dual Barrel/Dual Cannon - Enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Dual Barrel/Dual Cannon - Enemy.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Dual Barrel/Dual Cannon - Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Dual Barrel/Dual Cannon - Player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Light Missile  - Enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Light Missile  - Enemy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Light Missile - Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Light Missile - Player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Light Missile SFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Light Missile SFX.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Missile Launch.wav.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Light Missile/Missile Launch.wav.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Rotary Gun.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Boss Wave.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Boss Wave.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Wave 4.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Main Menu/Main Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Main Menu/Main Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 4-2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 4-2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Wave 4.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +302,8 @@
       <workItem from="1761267044677" duration="2740000" />
       <workItem from="1761352451759" duration="2350000" />
       <workItem from="1761699487000" duration="1338000" />
-      <workItem from="1761709164979" duration="1136000" />
+      <workItem from="1761709164979" duration="1376000" />
+      <workItem from="1761796278006" duration="304000" />
     </task>
     <servers />
   </component>

@@ -15,17 +15,17 @@ MonoBehaviour:
   targetLayer:
     serializedVersion: 2
     m_Bits: 64
-  moveSpeed: 25
+  moveSpeed: 27
   turnSpeed: 3
   minMovementRadius: 75
   maxMovementRadius: 100
   evadeDistance: 300
-  minHealth: 1
-  maxHealth: 2
+  minHealth: 2
+  maxHealth: 3
   explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
   explosionFrequency: 0.2
   explosionDuration: 1
   numExplosions: 2
   reactorExplosionPrefab: {fileID: 0}
-  pointValue: 5
+  pointValue: 10
   shipExplosion: {fileID: 11400000, guid: 99a44a2b797e95ede992d5cba9fef69b, type: 2}

@@ -345,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -363,6 +363,10 @@ PrefabInstance:
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 91aa1e1e5b2dfe1bb9d64b94701c24d9, type: 2}
+    - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
+      propertyPath: 'spawnWavesSO.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 40333acf92dbf7e20bfc1d12c761787f, type: 2}
     m_RemovedComponents:
     - {fileID: 3192499278244960258, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
     - {fileID: 7555117023813029800, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
@@ -897,7 +901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -918,7 +922,7 @@ PrefabInstance:
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[4]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 40333acf92dbf7e20bfc1d12c761787f, type: 2}
     m_RemovedComponents:
     - {fileID: 3192499278244960258, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
     - {fileID: 7555117023813029800, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
@@ -1351,7 +1355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285217621641369237, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4870509575100121735, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1642,7 +1646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -1660,6 +1664,10 @@ PrefabInstance:
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 91aa1e1e5b2dfe1bb9d64b94701c24d9, type: 2}
+    - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
+      propertyPath: 'spawnWavesSO.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 40333acf92dbf7e20bfc1d12c761787f, type: 2}
     m_RemovedComponents:
     - {fileID: 3192499278244960258, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
     - {fileID: 7555117023813029800, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
@@ -1893,7 +1901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -1911,6 +1919,10 @@ PrefabInstance:
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 91aa1e1e5b2dfe1bb9d64b94701c24d9, type: 2}
+    - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
+      propertyPath: 'spawnWavesSO.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 40333acf92dbf7e20bfc1d12c761787f, type: 2}
     m_RemovedComponents:
     - {fileID: 3192499278244960258, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
     - {fileID: 7555117023813029800, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
@@ -2590,7 +2602,7 @@ PrefabInstance:
       objectReference: {fileID: 1760445604}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: numWaves
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: waveText
@@ -2598,7 +2610,7 @@ PrefabInstance:
       objectReference: {fileID: 1081356941}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: timeBetweenWaves
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.size

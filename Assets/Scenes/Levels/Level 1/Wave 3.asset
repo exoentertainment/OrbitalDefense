@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 266c04b4b9a87821ba5c37819bcb7b76, type: 3}
   m_Name: Wave 3
   m_EditorClassIdentifier: 
-  numSpawns: 15
-  mintimeBetweenSpawns: 1.5
+  numSpawns: 8
+  mintimeBetweenSpawns: 2
   maxtimeBetweenSpawns: 3
   enemyShipsPrefabs:
   - {fileID: 8702785273099874958, guid: 49152f9f2fba808a08616c51555cc52f, type: 3}

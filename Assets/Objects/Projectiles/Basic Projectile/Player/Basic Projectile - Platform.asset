@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a878b4ffafdb0d86830a85bac97fa1b, type: 3}
   m_Name: Basic Projectile - Platform
   m_EditorClassIdentifier: 
-  speed: 700
+  speed: 1000
   damage: 1
   duration: 2
   range: 180

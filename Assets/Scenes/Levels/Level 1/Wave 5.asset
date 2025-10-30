@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 266c04b4b9a87821ba5c37819bcb7b76, type: 3}
-  m_Name: Boss Wave
+  m_Name: Wave 5
   m_EditorClassIdentifier: 
-  numSpawns: 1
-  mintimeBetweenSpawns: 3
-  maxtimeBetweenSpawns: 5
-  timeBetweenSpawns: 0
-  enemyShipsPrefabs: []
+  numSpawns: 8
+  mintimeBetweenSpawns: 2
+  maxtimeBetweenSpawns: 3
+  enemyShipsPrefabs:
+  - {fileID: 8702785273099874958, guid: 49152f9f2fba808a08616c51555cc52f, type: 3}
+  - {fileID: 1192508902719806313, guid: 699eb1c4507d77309921350591db06dc, type: 3}

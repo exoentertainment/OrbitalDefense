@@ -726,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -744,6 +744,10 @@ PrefabInstance:
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 326fdeeb32372afa99f6a0427e96c709, type: 2}
+    - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
+      propertyPath: 'spawnWavesSO.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ff9f398ab72c28d8994b702131b0fc3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1026,7 +1030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -1044,6 +1048,10 @@ PrefabInstance:
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 326fdeeb32372afa99f6a0427e96c709, type: 2}
+    - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
+      propertyPath: 'spawnWavesSO.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ff9f398ab72c28d8994b702131b0fc3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2380,7 +2388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: spawnWavesSO.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
       propertyPath: 'spawnWavesSO.Array.data[0]'
@@ -2398,6 +2406,10 @@ PrefabInstance:
       propertyPath: 'spawnWavesSO.Array.data[3]'
       value: 
       objectReference: {fileID: 11400000, guid: 326fdeeb32372afa99f6a0427e96c709, type: 2}
+    - target: {fileID: 8464913824100802684, guid: 7b8a721a950a3fe4d88d597816f457b6, type: 3}
+      propertyPath: 'spawnWavesSO.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 8ff9f398ab72c28d8994b702131b0fc3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

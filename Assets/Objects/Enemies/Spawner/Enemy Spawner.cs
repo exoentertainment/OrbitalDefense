@@ -78,7 +78,9 @@ public class EnemySpawner : MonoBehaviour
     
     public void SpawnBoss()
     {   
-        GameObject.FindGameObjectWithTag("Boss incoming").SetActive(true);
+        if(GameObject.FindGameObjectWithTag("Boss incoming") != null)
+            GameObject.FindGameObjectWithTag("Boss incoming").SetActive(true);
+        
         Instantiate(bossPrefab, transform.position, Quaternion.identity);
     }
 }
