@@ -17,6 +17,11 @@ public class PauseMenu : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);    
+    }
+    
     public void LoadControlsWindow()
     {
         GameObject window = (GameObject)Instantiate(Resources.Load("Controls Window"));

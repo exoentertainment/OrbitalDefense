@@ -8,6 +8,8 @@ public class WeaponPlatformWindow : MonoBehaviour
     [Header("Scriptable Objects")] 
     [SerializeField] private PlatformScriptableObject[] weaponPlatformsSO;
 
+    [SerializeField] private float discountAmount;
+    
     [Header("Components")] 
     private GameObject weaponPlatform;
 
@@ -35,8 +37,9 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.Basic].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.Basic].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
+                //CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.Basic].resourceCost/2);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.Basic].platformPrefab);
@@ -60,8 +63,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.DualGun].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.DualGun].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.DualGun].platformPrefab);
@@ -82,8 +85,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.LightMissile].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.LightMissile].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.LightMissile].platformPrefab);
@@ -104,8 +107,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.CruiseMissile].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.CruiseMissile].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.CruiseMissile].platformPrefab);
@@ -126,8 +129,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.PlasmaGun].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.PlasmaGun].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.PlasmaGun].platformPrefab);
@@ -148,8 +151,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.PlasmaMissile].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.PlasmaMissile].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.PlasmaMissile].platformPrefab);
@@ -170,8 +173,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.LaserGun].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.LaserGun].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.LaserGun].platformPrefab);
@@ -192,8 +195,8 @@ public class WeaponPlatformWindow : MonoBehaviour
         //check the prefabs scriptable object resource cost against the resource manager
         if (ResourceManager.instance.CheckForResources(weaponPlatformsSO[(int)PlatformType.StarFort].resourceCost))
         {
-            if(weaponPlatform.transform.childCount > 0)
-                CheckExistingPlatform(weaponPlatformsSO[(int)PlatformType.StarFort].resourceCost/2);
+            if (weaponPlatform.transform.childCount > 1) 
+                CheckExistingPlatform(weaponPlatform.transform.GetComponentInChildren<WeaponPlatformSlot>().GetPlatformCost() * discountAmount);
             
             weaponPlatform.GetComponent<WeaponPlatformSlot>()
                 .PlaceWeaponPlatform(weaponPlatformsSO[(int)PlatformType.StarFort].platformPrefab);
@@ -209,10 +212,9 @@ public class WeaponPlatformWindow : MonoBehaviour
         }
     }
 
-    void CheckExistingPlatform(int value)
+    void CheckExistingPlatform(float value)
     {
-        if(weaponPlatform.transform.childCount > 1)
-            ResourceManager.instance.IncreaseResources(value);
+        ResourceManager.instance.IncreaseResources(value);
     }
     
     //Resume the game and disable the platform selection window
@@ -226,6 +228,7 @@ public class WeaponPlatformWindow : MonoBehaviour
         //         Time.timeScale = 1;
         
         Time.timeScale = 1;
+        GameManager.instance.UnSlowGame();
         
         gameObject.SetActive(false);
     }

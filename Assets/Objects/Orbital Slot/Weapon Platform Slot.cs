@@ -48,4 +48,9 @@ public class WeaponPlatformSlot : MonoBehaviour, iInteractable
         weaponPlatformWindow.SetActive(true);
         weaponPlatformWindow.GetComponent<WeaponPlatformWindow>().AssignWeaponPlatformSlot(this.gameObject);
     }
+    
+    public int GetPlatformCost()
+    {
+        return weaponPlatform.GetComponent<PlatformHealth>().GetPlatformCost();
+    }
 }

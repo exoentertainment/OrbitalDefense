@@ -89,4 +89,9 @@ public class PlatformHealth : MonoBehaviour, IDamageable
     {
         healthSlider.value = currentHealth/healthSO.maxHealth;
     }
+
+    public int GetPlatformCost()
+    {
+        return healthSO.resourceCost;
+    }
 }

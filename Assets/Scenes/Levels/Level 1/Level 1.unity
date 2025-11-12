@@ -1913,6 +1913,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7371965184839934315, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: discountAmount
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8209707451045018797, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -3148,6 +3152,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1746566246}
     - target: {fileID: 3237489587865161154, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: currentResources
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 3237489587865161154, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: resourceTextAnimator
       value: 
       objectReference: {fileID: 1081356942}
@@ -3165,7 +3173,7 @@ PrefabInstance:
       objectReference: {fileID: 1760445604}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: numWaves
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: waveText
@@ -3173,7 +3181,7 @@ PrefabInstance:
       objectReference: {fileID: 1053434290}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: timeBetweenWaves
-      value: 30
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5106584569709851237, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: bossSpawner.m_PersistentCalls.m_Calls.Array.size

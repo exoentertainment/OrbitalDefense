@@ -68,8 +68,11 @@ public class EnemySpawner : MonoBehaviour
                 int enemySpawn = Random.Range(0, spawnWavesSO[currentWave].enemyShipsPrefabs.Length);
                 Instantiate(spawnWavesSO[currentWave].enemyShipsPrefabs[enemySpawn], transform.position,
                          transform.rotation);
+
+                float waitTime = Random.Range(spawnWavesSO[currentWave].mintimeBetweenSpawns,
+                    spawnWavesSO[currentWave].maxtimeBetweenSpawns);
                 
-                yield return new WaitForSeconds(Random.Range(spawnWavesSO[currentWave].mintimeBetweenSpawns, spawnWavesSO[currentWave].maxtimeBetweenSpawns));
+                yield return new WaitForSeconds(waitTime);
             }
 
             currentWave++;

@@ -64,7 +64,7 @@ public class KamikazeMovement : MonoBehaviour
             // }
         }
 
-        if (target != null)
+        if (target != null && target.CompareTag("Planet"))
         {
             SphereCollider collider =  target.GetComponent<SphereCollider>();
             targetPos = Random.insideUnitSphere * collider.radius;

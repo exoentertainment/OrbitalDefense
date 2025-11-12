@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f13c52bac8af00b3bfe32c1ed243417, type: 3}
   m_Name: Resource Station
   m_EditorClassIdentifier: 
-  cargoShipSpawnTime: 100
-  maxHealth: 100
+  cargoShipSpawnTime: 15
+  maxHealth: 50
   resourceStationLayerMask:
     serializedVersion: 2
     m_Bits: 2048

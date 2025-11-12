@@ -18,6 +18,6 @@ MonoBehaviour:
   explosionPrefab: {fileID: 1744157813687134, guid: bd79a40fba5725864a5616714e36b02b, type: 3}
   explosionFrequency: 1
   numExplosions: 3
-  platformDescription: Basic missile platform. Does low damage but fires tracking
+  platformDescription: Basic light missile platform. Does low damage but fires tracking
     missiles from a moderate distance.
   explosionSFX: {fileID: 11400000, guid: 99d005673aee4c977928858ccbf63e51, type: 2}

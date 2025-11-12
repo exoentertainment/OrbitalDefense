@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 2112
   moveSpeed: 27
   turnSpeed: 3
   minMovementRadius: 75
   maxMovementRadius: 100
   evadeDistance: 300
-  minHealth: 2
-  maxHealth: 3
+  minHealth: 1
+  maxHealth: 2
   explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
   explosionFrequency: 0.2
   explosionDuration: 1

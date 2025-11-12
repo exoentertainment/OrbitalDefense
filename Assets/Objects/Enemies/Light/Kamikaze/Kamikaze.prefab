@@ -2522,6 +2522,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySO: {fileID: 11400000, guid: 943147ad04fd8aa07b0e42d7e1e9454e, type: 2}
+  damage: 10
   onDeath:
     m_PersistentCalls:
       m_Calls:

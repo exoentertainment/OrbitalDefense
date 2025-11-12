@@ -111,8 +111,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void UnSlowGame()
+    {
+        pauseIcon.SetActive(false);
+    }
+    
     public bool IsPaused()
     {
         return isPaused;
+    }
+
+    public void LoadStartMenu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

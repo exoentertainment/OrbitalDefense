@@ -1,0 +1,11 @@
+{
+    "asset": "7072764507c9de42f9530ea7f058e0a4",
+    "fileName": "019a7660-39d8-70c8-802b-ad310a6d2f70_Preview.png",
+    "prompt": "red sun",
+    "negativePrompt": "",
+    "model": "44ec3749-963a-44b1-aa54-dc19f6ed8ab2",
+    "modelName": "Unity Texture2D",
+    "customSeed": 1668778278,
+    "w3CTraceId": "4b6fae931583e4cb00ef8bbf2a05883c",
+    "refinementMode": "Generation"
+}

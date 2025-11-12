@@ -27,5 +27,5 @@ MonoBehaviour:
   explosionDuration: 1
   numExplosions: 3
   reactorExplosionPrefab: {fileID: 0}
-  pointValue: 5
+  pointValue: 10
   shipExplosion: {fileID: 11400000, guid: 99a44a2b797e95ede992d5cba9fef69b, type: 2}

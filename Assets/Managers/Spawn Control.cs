@@ -7,6 +7,7 @@ public class SpawnControl : MonoBehaviour
 {
     [SerializeField] private int numWaves;
     [SerializeField] private float timeBetweenWaves;
+    [SerializeField] private int bossSpawnDelay;
 
     [SerializeField] private UnityEvent enemySpawners;
     [SerializeField] private UnityEvent bossSpawner;
@@ -56,12 +57,19 @@ public class SpawnControl : MonoBehaviour
                 if (!isBossSpawned && bossSpawner.GetPersistentEventCount() > 0) 
                 {
                     isBossSpawned = true;
-                    bossSpawner?.Invoke();
-                    LevelManager.instance.SetLastWave();
+                    StartCoroutine(SpawnBoss());
                 }
             }
         }
         
         //StartCoroutine(SpawnEnemyRoutine());
+    }
+
+    IEnumerator SpawnBoss()
+    {
+        yield return new WaitForSeconds(bossSpawnDelay);
+
+        bossSpawner?.Invoke();
+        LevelManager.instance.SetLastWave();
     }
 }

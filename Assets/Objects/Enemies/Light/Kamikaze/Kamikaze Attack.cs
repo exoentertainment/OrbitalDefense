@@ -7,6 +7,7 @@ public class KamikazeAttack : MonoBehaviour
     #region -- Serialized Fields --
     
     [SerializeField] EnemySO enemySO;
+    [SerializeField] private int damage;
     [SerializeField] private UnityEvent onDeath;
     
     #endregion
@@ -61,8 +62,8 @@ public class KamikazeAttack : MonoBehaviour
 
         if (targetHit != null)
         {
-            float currentHealth = transform.root.GetComponent<EnemyHealth>().GetHealth();
-            targetHit.TakeDamage(enemySO.maxHealth - currentHealth);
+            //float currentHealth = transform.root.GetComponent<EnemyHealth>().GetHealth();
+            targetHit.TakeDamage(damage);
         }
 
         onDeath?.Invoke();

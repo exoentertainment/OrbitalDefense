@@ -26,9 +26,9 @@ public class ResourceManager : MonoBehaviour
     }
 
     //Increase the current amount of resources by the passed parameter
-    public void IncreaseResources(int value)
+    public void IncreaseResources(float value)
     {
-        currentResources += value;
+        currentResources += (int)value;
         resourceText.SetText(currentResources.ToString());
         resourceTextAnimator.SetTrigger("Pulse");
     }

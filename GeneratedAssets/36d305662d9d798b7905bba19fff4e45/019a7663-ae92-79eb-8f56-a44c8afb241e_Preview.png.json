@@ -1,0 +1,11 @@
+{
+    "asset": "36d305662d9d798b7905bba19fff4e45",
+    "fileName": "019a7663-ae92-79eb-8f56-a44c8afb241e_Preview.png",
+    "prompt": "red star, sun surface",
+    "negativePrompt": "border, gradient",
+    "model": "44ec3749-963a-44b1-aa54-dc19f6ed8ab2",
+    "modelName": "Unity Texture2D",
+    "customSeed": 274934369,
+    "w3CTraceId": "f8e865fd3263043f9f31629e959256bc",
+    "refinementMode": "Generation"
+}
