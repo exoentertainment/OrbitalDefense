@@ -1725,6 +1725,12 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 933654921557344486, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_text
+      value: We finally reached the stars. We were so close to breaking the chains
+        of gravity for good. But our dreams attracted our worst nightmares. It's
+        up to you, Commander, to fight off these aliens and protect us all.
+      objectReference: {fileID: 0}
     - target: {fileID: 1495101821867290717, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -2979,7 +2985,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1950780416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3139,6 +3145,10 @@ PrefabInstance:
       propertyPath: pauseIcon
       value: 
       objectReference: {fileID: 1081356939}
+    - target: {fileID: 1201933968589267605, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: gameOverDelay
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1201933968589267605, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: LoadNextLevelWindow
       value: 

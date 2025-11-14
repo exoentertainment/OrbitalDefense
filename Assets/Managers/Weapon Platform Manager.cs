@@ -47,7 +47,7 @@ public class WeaponPlatformManager : MonoBehaviour
 
             if (Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity, weaponLayerMask))
             {
-                if (hit.collider != null)
+                if (hit.collider != null && hit.collider.gameObject.activeSelf)
                 {
                     if (hit.collider.gameObject.TryGetComponent<iInteractable>(out iInteractable slot)) 
                     {

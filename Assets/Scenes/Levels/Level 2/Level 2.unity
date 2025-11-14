@@ -1265,6 +1265,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 933654921557344486, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_text
+      value: We've been able to hold off the enemy vanguard so far. But radar shows
+        something large coming our way, something much larger than anything we've
+        seen so far. We've developed a new heavy weapon platform that should help
+        against whatever is coming.
+      objectReference: {fileID: 0}
     - target: {fileID: 1144980625953026450, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -1359,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4285217621641369237, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4870509575100121735, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2575,6 +2582,10 @@ PrefabInstance:
     - target: {fileID: 1201933968589267605, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: musicTrack
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1201933968589267605, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
+      propertyPath: gameOverDelay
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1201933968589267605, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: LoadNextLevelWindow
