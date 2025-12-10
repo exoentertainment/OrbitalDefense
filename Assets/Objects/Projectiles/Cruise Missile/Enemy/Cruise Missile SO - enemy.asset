@@ -15,10 +15,10 @@ MonoBehaviour:
   speed: 7000
   damage: 1
   duration: 10
-  range: 500
+  range: 400
   targetLayers:
     serializedVersion: 2
-    m_Bits: 2112
+    m_Bits: 32768
   projectilePrefab: {fileID: 2581245511433833385, guid: 14d8e20c18a5e665ba12d7d6220e9514, type: 3}
   dischargePrefab: {fileID: 0}
   impactPrefab: {fileID: 1043624379182380, guid: b7219f3d6b17c38f6a28e9c5fb3d2531, type: 3}

@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSO: {fileID: 11400000, guid: dc929a5fbafd731df9ec1c5557c671bd, type: 2}
   fireSFX: {fileID: 11400000, guid: c4952f7844ad400acaf37d1885d6bf85, type: 2}
-  fireRate: 5
+  fireRate: 10
   baseTrackingSpeed: 0
   barrelFireDelay: 1
   targetLayers:
     serializedVersion: 2
-    m_Bits: 2112
+    m_Bits: 32768
   trackingErrorMin: 0
   trackingErrorMax: 0

@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using MoreMountains.Feedbacks;
+// using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.Events;
 using Random = UnityEngine.Random;
@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
     [SerializeField] private EnemySO enemySO;
     [SerializeField] Slider healthSlider;
     [SerializeField] private UnityEvent onDeath;
-    [SerializeField] MMFeedbacks deathFeedback;
+    // [SerializeField] MMFeedbacks deathFeedback;
 
     [SerializeField] private Transform[] explosionPoints;
     
@@ -60,7 +60,7 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
             ResourceManager.instance.IncreaseResources(enemySO.pointValue);
         
         //Invoke onDeath event
-        deathFeedback?.PlayFeedbacks();
+        // deathFeedback?.PlayFeedbacks();
         onDeath?.Invoke();
         
         //start coroutine that spawns explosions along ship

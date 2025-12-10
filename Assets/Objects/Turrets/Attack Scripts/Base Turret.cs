@@ -138,10 +138,6 @@ public class BaseTurret : MonoBehaviour
                 lastTimeOnTarget = Time.time;
                 return true;
             }
-            else
-            {
-                Debug.Log(hit.collider.gameObject.transform.root.name);
-            }
         }
         
         // if(Physics.Raycast(raycastOrigin.position, target.transform.position - raycastOrigin.position, out RaycastHit hit))

@@ -463,7 +463,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a80eba31b894434d7a9857bac65e58ed, type: 2}
   - {fileID: 11400000, guid: 09ea2e76b23578b8d8b609ce6dbf0d0b, type: 2}
   - {fileID: 11400000, guid: 753bd613542cbf7d382a7e658e26671e, type: 2}
-  discountAmount: 0
+  discountAmount: 0.25
 --- !u!1 &592116576531117189
 GameObject:
   m_ObjectHideFlags: 0

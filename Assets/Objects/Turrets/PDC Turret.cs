@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.Numerics;
-using MoreMountains.Feedbacks;
-using MoreMountains.Tools;
+// using MoreMountains.Feedbacks;
+// using MoreMountains.Tools;
 using UnityEngine;
 using Quaternion = UnityEngine.Quaternion;
 using Vector3 = UnityEngine.Vector3;
@@ -12,7 +12,7 @@ public class PDCTurret : MonoBehaviour
     #region --Serialized Fields
 
     [SerializeField] PDCSO platformSO;
-    [SerializeField] private MMAutoRotate[] barrels;
+    //[SerializeField] private MMAutoRotate[] barrels;
 
     [SerializeField] private Transform platformBase;
     [SerializeField] private Transform platformTurret;
@@ -41,7 +41,6 @@ public class PDCTurret : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(platformBase.rotation.eulerAngles.y);
         if (target != null && target.activeSelf)
         {
             Debug.DrawRay(raycastOrigin.position, raycastOrigin.forward * platformSO.projectileSO.range, Color.red);
@@ -53,10 +52,10 @@ public class PDCTurret : MonoBehaviour
         {
             SearchForTarget();
             
-            foreach (MMAutoRotate barrel in barrels)
-            {
-                barrel.enabled = false;
-            }
+            // foreach (MMAutoRotate barrel in barrels)
+            // {
+            //     barrel.enabled = false;
+            // }
         }
 
         
@@ -137,11 +136,11 @@ public class PDCTurret : MonoBehaviour
 
     void Fire()
     {
-        foreach (MMAutoRotate barrel in barrels)
-        {
-            if(!barrel.enabled)
-                barrel.enabled = true;
-        }
+        // foreach (MMAutoRotate barrel in barrels)
+        // {
+        //     if(!barrel.enabled)
+        //         barrel.enabled = true;
+        // }
         
         StartCoroutine(FireRoutine());
     }

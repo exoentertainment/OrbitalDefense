@@ -157,6 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InterstellarMissile
   missileSO: {fileID: 11400000, guid: 59bb67ac90c616a248927a60ecba6982, type: 2}
   maxHealth: 2
+  rb: {fileID: 2362236016249554988}
 --- !u!1001 &529477002425925798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -209,49 +210,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19891852, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: emitterVelocityMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19891852, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19891852, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19891852, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startRotationX.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19891852, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startRotationY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19892910, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: emitterVelocityMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 19892910, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startSizeY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19892910, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startSizeZ.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19892910, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startRotationX.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 19892910, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-      propertyPath: InitialModule.startRotationY.minMaxState
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8274308, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
-    - {fileID: 11428964, guid: 70b01cc02fca3f23f8aa63c40cbc3068, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

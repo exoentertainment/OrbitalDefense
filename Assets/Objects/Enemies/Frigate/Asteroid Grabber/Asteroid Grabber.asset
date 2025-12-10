@@ -20,8 +20,8 @@ MonoBehaviour:
   minMovementRadius: 0
   maxMovementRadius: 0
   evadeDistance: 0
-  minHealth: 0
-  maxHealth: 15
+  minHealth: 8
+  maxHealth: 12
   explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
   explosionFrequency: 0.5
   explosionDuration: 2

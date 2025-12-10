@@ -300,6 +300,11 @@ MonoBehaviour:
   cargoShipPrefab: {fileID: 1779420705963414, guid: 40d2676839e01ad53bfb0ef3793a2788, type: 3}
   cargoShipSpawnPoint: {fileID: 1006689266763378000}
   resourceStationSO: {fileID: 11400000, guid: abfa0e78355a2a87e8a63b3a48f00da7, type: 2}
+  explosionPoints: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  deathFeedback: {fileID: 0}
 --- !u!54 &-7821551246985055558
 Rigidbody:
   m_ObjectHideFlags: 0

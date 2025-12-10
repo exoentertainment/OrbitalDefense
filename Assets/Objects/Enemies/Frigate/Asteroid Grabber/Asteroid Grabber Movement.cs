@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using System.Collections;
-using MoreMountains.Tools;
+// using MoreMountains.Tools;
 using Random = UnityEngine.Random;
 
 public class AsteroidGrabberMovement : MonoBehaviour
@@ -152,10 +152,12 @@ public class AsteroidGrabberMovement : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Planet"))
+        {
             other.gameObject.GetComponent<IDamageable>()?.TakeDamage(enemySO.maxHealth);
-        
-        Instantiate(enemySO.explosionPrefab, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+
+            Instantiate(enemySO.explosionPrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 
     private void OnDrawGizmosSelected()

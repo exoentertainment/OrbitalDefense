@@ -1,6 +1,6 @@
 using System;
 using System.Collections;
-using MoreMountains.Feedbacks;
+//using MoreMountains.Feedbacks;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
@@ -22,7 +22,7 @@ public class PlatformHealth : MonoBehaviour, IDamageable
     [SerializeField] UnityEvent OnDeath;
     
     [Header("Feedbacks")]
-    [SerializeField] MMFeedbacks deathFeedback;
+    //[SerializeField] MMFeedbacks deathFeedback;
 
     #endregion
     
@@ -77,7 +77,7 @@ public class PlatformHealth : MonoBehaviour, IDamageable
             if(AudioManager.instance != null)
                 AudioManager.instance.PlaySound(healthSO.explosionSFX);
                 
-            deathFeedback?.PlayFeedbacks();
+            //deathFeedback?.PlayFeedbacks();
             
             yield return new WaitForSeconds(healthSO.explosionFrequency);
         }

@@ -12,10 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 266c04b4b9a87821ba5c37819bcb7b76, type: 3}
   m_Name: Wave 4-2
   m_EditorClassIdentifier: 
-  numSpawns: 20
+  numSpawns: 10
   mintimeBetweenSpawns: 5
   maxtimeBetweenSpawns: 7
-  timeBetweenSpawns: 0
   enemyShipsPrefabs:
   - {fileID: 1192508902719806313, guid: 699eb1c4507d77309921350591db06dc, type: 3}
   - {fileID: 5580504212120642270, guid: fa9ca1b55e442086d87413b2e65817d8, type: 3}

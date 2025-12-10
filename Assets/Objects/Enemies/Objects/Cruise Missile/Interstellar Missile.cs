@@ -7,28 +7,25 @@ public class InterstellarMissile : MonoBehaviour, IDamageable
 {
     [SerializeField] CruiseMissileSO missileSO;
     [SerializeField] private int maxHealth;
+    [SerializeField] Rigidbody rb;
     
     GameObject target;
-    private bool coastPhase = true;
+    private bool coastPhase;
     private float curentHealth;
     
-    private Rigidbody rb;
-    
     private bool isBeingHit;
-    
-    private void Awake()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
 
     private void Start()
     {
-        StartCoroutine(CoastPhaseRoutine());
+        //StartCoroutine(CoastPhaseRoutine());
         curentHealth = maxHealth;
     }
 
     private void Update()
     {
+        if(target == null)
+            FindClosestTarget();
+        
         if(isBeingHit)
             isBeingHit = false;
     }
@@ -39,28 +36,25 @@ public class InterstellarMissile : MonoBehaviour, IDamageable
             Coast();
         
         if (!coastPhase && target != null)
-        {
             RotateTowardsTarget();
-            Move();
-        }
-        else if (target == null)
-        {
-            FindClosestTarget();
-            Move();
-        }
+
+        Move();
     }
 
     IEnumerator CoastPhaseRoutine()
     {
-        float beginCoastPhase = Time.time;
+        float beginCoastPhase = 0;
         
         while(coastPhase)
         {
-            if ((Time.time - beginCoastPhase) >= missileSO.coastDuration)
+            beginCoastPhase += Time.deltaTime;
+            if (beginCoastPhase >= missileSO.coastDuration)
             {
                 coastPhase = false;
+                Debug.Log("end CoastPhase");
             }
                 
+            
             yield return new WaitForEndOfFrame();
         }
     }
@@ -89,7 +83,8 @@ public class InterstellarMissile : MonoBehaviour, IDamageable
     
     void Coast()
     {
-        rb.MovePosition(transform.position + transform.forward * (missileSO.coastSpeed * Time.fixedDeltaTime));
+        //rb.MovePosition(transform.position + transform.forward * (missileSO.coastSpeed * Time.fixedDeltaTime));
+        rb.linearVelocity = transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
     }
     
     public void SetTarget(GameObject target)
@@ -102,8 +97,9 @@ public class InterstellarMissile : MonoBehaviour, IDamageable
         Instantiate(missileSO.impactPrefab, other.contacts[0].point, Quaternion.identity);
         other.gameObject.GetComponent<IDamageable>()?.TakeDamage(missileSO.damage);
         
-        if(other.gameObject == target)
-            Destroy(gameObject);
+        if(other.gameObject.layer == target.layer)
+            gameObject.SetActive(false);   
+        // Destroy(gameObject);
     }
 
     public void TakeDamage(float damage)
@@ -114,12 +110,14 @@ public class InterstellarMissile : MonoBehaviour, IDamageable
         if (curentHealth <= 0)
         {
             Instantiate(missileSO.impactPrefab, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
     }
     
     void FindClosestTarget()
     {
+        
         Collider[] possibleTargets = Physics.OverlapSphere(transform.position, Mathf.Infinity,
             missileSO.targetLayers);
 

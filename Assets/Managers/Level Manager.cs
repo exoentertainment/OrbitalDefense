@@ -8,8 +8,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private int levelOverDelay;
     
     public static LevelManager instance;
-
-    private bool isBossSpawn;
     
     private bool isLastWave;
     private void Awake()
@@ -30,11 +28,6 @@ public class LevelManager : MonoBehaviour
     public void SetLastWave()
     {
         isLastWave = true;
-    }
-    
-    public void SetBossSpawn()
-    {
-        isBossSpawn = true;
     }
 
     void CheckLastEnemies()

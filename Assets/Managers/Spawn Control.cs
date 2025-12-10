@@ -7,9 +7,11 @@ public class SpawnControl : MonoBehaviour
 {
     [SerializeField] private int numWaves;
     [SerializeField] private float timeBetweenWaves;
+    [SerializeField] private int firstWaveDelay;git init
     [SerializeField] private int bossSpawnDelay;
 
     [SerializeField] private UnityEvent enemySpawners;
+    [SerializeField] private UnityEvent miscSpawners;
     [SerializeField] private UnityEvent bossSpawner;
     
     [SerializeField] TMPro.TMP_Text waveText;
@@ -36,6 +38,9 @@ public class SpawnControl : MonoBehaviour
         
         if ((Time.time - lastSpawnTime) >= timeBetweenWaves)
         {
+            if(currentWave == 0)
+                miscSpawners?.Invoke();
+                
             if (currentWave < numWaves)
             {
                 enemySpawners?.Invoke();
