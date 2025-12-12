@@ -1,5 +1,5 @@
 using System;
-//using MoreMountains.Tools;
+using MoreMountains.Tools;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -24,10 +24,10 @@ public class AsteroidSpawner : MonoBehaviour
             GameObject asteroid = Instantiate(asteroidPrefabs[Random.Range(0, asteroidPrefabs.Length)],
                 orbitPoint.position + new Vector3(Random.Range(-orbitRange, orbitRange), 0, Random.Range(-orbitRange, orbitRange)),
                 Quaternion.identity);
-            // asteroid.GetComponent<MMAutoRotate>().OrbitRadius = orbitRange;
-            // asteroid.GetComponent<MMAutoRotate>().OrbitRotationSpeed = orbitSpeed;
-            // asteroid.GetComponent<MMAutoRotate>().OrbitCenterTransform = orbitPoint;
-            // asteroid.GetComponent<MMAutoRotate>().OrbitCenterOffset.y = Random.Range(-200, 200);
+            asteroid.GetComponent<MMAutoRotate>().OrbitRadius = orbitRange;
+            asteroid.GetComponent<MMAutoRotate>().OrbitRotationSpeed = orbitSpeed;
+            asteroid.GetComponent<MMAutoRotate>().OrbitCenterTransform = orbitPoint;
+            asteroid.GetComponent<MMAutoRotate>().OrbitCenterOffset.y = Random.Range(-200, 200);
             asteroid.transform.SetParent(transform);
         }
     }

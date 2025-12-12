@@ -18,7 +18,7 @@ public class WeaponPlatformWindow : MonoBehaviour
         Basic = 0,
         DualGun = 1,
         LightMissile = 2,
-        CruiseMissile = 5,
+        CruiseMissile = 3,
         PlasmaGun = 4,
         PlasmaMissile = 5,
         LaserGun = 6,

@@ -8,10 +8,16 @@ public class MissileSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] spawnPrefabs;
     [FormerlySerializedAs("minSpawnTime")] [SerializeField] int spawnTime;
-    [SerializeField] SphereCollider sphereCollider;
+    
+    SphereCollider sphereCollider;
     
     float lastSpawnTime;
     private bool isSpawning;
+
+    private void Awake()
+    {
+        sphereCollider = GetComponent<SphereCollider>();
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

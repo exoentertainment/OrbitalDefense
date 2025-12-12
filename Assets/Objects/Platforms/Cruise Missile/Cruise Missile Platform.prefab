@@ -488,9 +488,6 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  deathFeedback: {fileID: 0}
-  minExplosionForce: 0
-  maxExplosionForce: 0
 --- !u!1 &3579805397262210537
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,7 +622,7 @@ RectTransform:
   m_GameObject: {fileID: 4481061825005668148}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 0.030000001, y: 0.030000001, z: 0.030000001}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.030000001}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9193848859159079239}
@@ -4810,7 +4807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 2581245511433833385, guid: 5fc509ef1cc7228269938abc25703261, type: 3}
-  amountToPool: 20
+  amountToPool: 6
 --- !u!114 &2745755563635986715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18496,7 +18493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 2581245511433833385, guid: 5fc509ef1cc7228269938abc25703261, type: 3}
-  amountToPool: 20
+  amountToPool: 6
 --- !u!114 &4910453580566200507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18663,7 +18660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 2581245511433833385, guid: 5fc509ef1cc7228269938abc25703261, type: 3}
-  amountToPool: 20
+  amountToPool: 6
 --- !u!114 &7514946313746250816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18814,7 +18811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 2581245511433833385, guid: 5fc509ef1cc7228269938abc25703261, type: 3}
-  amountToPool: 20
+  amountToPool: 6
 --- !u!114 &2141585620035411858
 MonoBehaviour:
   m_ObjectHideFlags: 0

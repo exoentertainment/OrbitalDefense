@@ -1071,14 +1071,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008476779}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 0.64705884, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 0
     m_Resolution: -1
@@ -1971,14 +1971,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688882039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 0.64705884, g: 0, b: 0, a: 1}
   m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 0
     m_Resolution: -1
@@ -2942,7 +2942,7 @@ PrefabInstance:
       objectReference: {fileID: 1746566246}
     - target: {fileID: 3237489587865161154, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: currentResources
-      value: 1100
+      value: 1200
       objectReference: {fileID: 0}
     - target: {fileID: 3237489587865161154, guid: 2139285e965b448d19da76ba7f8cdb8f, type: 3}
       propertyPath: resourceTextAnimator

@@ -7,7 +7,7 @@ public class SpawnControl : MonoBehaviour
 {
     [SerializeField] private int numWaves;
     [SerializeField] private float timeBetweenWaves;
-    [SerializeField] private int firstWaveDelay;git init
+    [SerializeField] private int firstWaveDelay;
     [SerializeField] private int bossSpawnDelay;
 
     [SerializeField] private UnityEvent enemySpawners;
