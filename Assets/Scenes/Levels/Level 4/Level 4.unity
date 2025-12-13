@@ -300,6 +300,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6103368628720681632, guid: fab42b5b701508544a0cb3c58175f3ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7330986151778909574, guid: fab42b5b701508544a0cb3c58175f3ea, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -822,7 +826,6 @@ MonoBehaviour:
   spawnPrefabs:
   - {fileID: 1969701129046410, guid: 2ca7b1b0eb1167a8d98f352025e00fb9, type: 3}
   spawnTime: 20
-  sphereCollider: {fileID: 629962409}
 --- !u!1 &653799205
 GameObject:
   m_ObjectHideFlags: 0
