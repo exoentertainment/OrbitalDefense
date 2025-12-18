@@ -16,8 +16,8 @@ MonoBehaviour:
   resourceCost: 550
   platformPrefab: {fileID: 3550977492829710849, guid: 3aeb821849636f68db669f6b89c65bba, type: 3}
   explosionPrefab: {fileID: 1744157813687134, guid: bd79a40fba5725864a5616714e36b02b, type: 3}
-  explosionFrequency: 0
-  numExplosions: 0
+  explosionFrequency: 1
+  numExplosions: 3
   platformDescription: Heavy missile platform with double the range of light missiles.
     Ideal for softening up enemies before they get close.
   explosionSFX: {fileID: 11400000, guid: 99d005673aee4c977928858ccbf63e51, type: 2}

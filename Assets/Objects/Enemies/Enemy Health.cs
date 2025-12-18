@@ -88,13 +88,6 @@ public class EnemyHealth : MonoBehaviour, IDamageable, IRepairable
         Destroy(gameObject);
     }
 
-    IEnumerator SpawnReactorExplosion()
-    {
-        yield return new WaitForSeconds(enemySO.explosionDuration * .75f);
-        
-        Instantiate(enemySO.reactorExplosionPrefab, transform.position, Quaternion.identity);
-    }
-
     public void TriggerDeath()
     {
         OnDeath();

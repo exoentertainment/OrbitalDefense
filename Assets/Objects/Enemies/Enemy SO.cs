@@ -11,7 +11,6 @@ public class EnemySO : ScriptableObject
     public float turnSpeed;
     public int minMovementRadius;
     public int maxMovementRadius;
-    public int evadeDistance;
 
     #endregion
 
@@ -24,8 +23,6 @@ public class EnemySO : ScriptableObject
     public float explosionFrequency;
     public float explosionDuration;
     public int numExplosions;
-    
-    public GameObject reactorExplosionPrefab;
 
     #endregion
 

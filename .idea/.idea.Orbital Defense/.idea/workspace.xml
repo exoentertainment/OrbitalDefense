@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="" />
+    <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/BeamWhite_Add.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/BeamWhite_Add.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/Electric_Add.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/Electric_Add.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/LaserBeam03_SGABScroll.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/LaserBeam03_SGABScroll.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/LaserBeam03_SGAddScroll.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GabrielAguiarProductions/UniqueProjectilesVol_1/Materials/LaserBeam03_SGAddScroll.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Heavy Cruiser/Heavy Cruiser.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Heavy Cruiser/Heavy Cruiser.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy SO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Enemy SO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Environmental/Planets/Orbit Changer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Environmental/Planets/Orbit Changer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Cruise Missile/Cruise Missile Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Cruise Missile/Cruise Missile Platform.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Cruise Missile/Cruise Missile Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Cruise Missile/Cruise Missile Platform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Gun/Plasma Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Gun/Plasma Platform.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Gun/Plasma Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Gun/Plasma Platform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Player/Plasma Ball - player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Player/Plasma Ball - player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Turret SO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Turret SO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6/Level 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6/Level 6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 4-2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 4-2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Wave 5.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -326,6 +349,8 @@
       <workItem from="1765369284630" duration="1188000" />
       <workItem from="1765425333178" duration="389000" />
       <workItem from="1765533787327" duration="1594000" />
+      <workItem from="1765600473471" duration="65000" />
+      <workItem from="1766031176263" duration="2303000" />
     </task>
     <servers />
   </component>

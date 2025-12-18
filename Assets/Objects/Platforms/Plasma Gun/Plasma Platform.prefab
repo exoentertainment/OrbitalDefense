@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.399167, y: 0, z: 10.094122}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5465088854473104710}
@@ -128,9 +128,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  deathFeedback: {fileID: 0}
-  minExplosionForce: 0
-  maxExplosionForce: 0
 --- !u!1 &1459679930991344796
 GameObject:
   m_ObjectHideFlags: 0
@@ -5772,6 +5769,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: 5}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -9543,6 +9544,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: 5}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -10454,6 +10459,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: -10}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -10895,6 +10904,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: -10}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -12935,6 +12948,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 10, z: 0}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -20252,6 +20269,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: 10}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -22568,6 +22589,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: 10}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -23619,6 +23644,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: -10}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
@@ -24350,6 +24379,10 @@ MonoBehaviour:
   RotationSpace: 1
   UpdateMode: 2
   RotationSpeed: {x: 0, y: 0, z: -10}
+  RandomizeRotationSpeed: 0
+  RotationSpeedMin: {x: 100, y: 0, z: 0}
+  RotationSpeedMax: {x: 300, y: 0, z: 0}
+  RandomInitialDelay: {x: 0, y: 0}
   Orbiting: 0
   AdditiveOrbitRotation: 0
   OrbitCenterTransform: {fileID: 0}
