@@ -16,9 +16,7 @@ MonoBehaviour:
   fireSFX: {fileID: 11400000, guid: c4952f7844ad400acaf37d1885d6bf85, type: 2}
   fireRate: 5
   baseTrackingSpeed: 0
-  barrelFireDelay: 1
+  barrelFireDelay: 2
   targetLayers:
     serializedVersion: 2
     m_Bits: 394240
-  trackingErrorMin: 0
-  trackingErrorMax: 0

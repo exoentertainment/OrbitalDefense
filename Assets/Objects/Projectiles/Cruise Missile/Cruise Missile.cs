@@ -41,8 +41,6 @@ public class CruiseMissile : MonoBehaviour, IDamageable
         StartCoroutine(CoastPhaseRoutine());
         randomTimeOffset = Random.Range(0f, 1000f);
         startTime = Time.time;
-        
-        //startRotation.eulerAngles = rb.rotation.eulerAngles;
     }
 
     private void OnEnable()
@@ -54,7 +52,6 @@ public class CruiseMissile : MonoBehaviour, IDamageable
     private void OnDisable()
     {
         target = null;
-        //rb.rotation = Quaternion.Euler(0, 0, 0);
         coastPhase = true;
     }
 
@@ -94,34 +91,11 @@ public class CruiseMissile : MonoBehaviour, IDamageable
     {
         if (target != null)
         {
-            // float dist = Vector3.Distance(transform.position, target.transform.position);
-            // float swarmAmount = dist > swarmFadeDistance ? 1 : (dist / swarmFadeDistance);
-            // swarmAmount *= Mathf.Clamp(1 - ((Time.time - startTime) / swarmFadeTime), 0, 1);
-            //
-            // Vector3 fwd = transform.forward;
-            // Vector3 toTarget = (target.transform.position - transform.position).normalized;
-            // fwd = Vector3.Lerp(fwd, toTarget, (1 - swarmAmount) * guidanceSteeringPower * Time.fixedDeltaTime);
-            // transform.rotation = Quaternion.LookRotation(fwd, Vector3.up);
-            //
-            // float wiggleX = swarmAmount * (Mathf.PerlinNoise((Time.time + randomTimeOffset) * swarmFrequency, 0.2f) - 0.5f) * maxSwarmAmount;
-            // float wiggleY = swarmAmount * (Mathf.PerlinNoise((Time.time + randomTimeOffset) * swarmFrequency, 0.5f) - 0.5f) * maxSwarmAmount;
-            // float wiggleZ = swarmAmount * (Mathf.PerlinNoise((Time.time + randomTimeOffset) * swarmFrequency, 0.8f) - 0.5f) * maxSwarmAmount;
-            //
-            // transform.rotation = Quaternion.Euler(wiggleX, wiggleY, wiggleZ) * transform.rotation;
-            //
-            // rb.linearVelocity = transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
-            // //rb.AddForce(transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime), ForceMode.VelocityChange);
-            // //rb.MovePosition(transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime));
-            
-            //rb.MovePosition(transform.position + transform.forward * (missileSO.speed * Time.fixedDeltaTime));
             rb.linearVelocity = transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
         }
         else
         {
             FindClosestTarget();
-            //rb.linearVelocity = transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime);
-            //rb.AddForce(rb.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime), ForceMode.VelocityChange);
-            //rb.MovePosition(transform.rotation * Vector3.forward * (missileSO.speed * Time.fixedDeltaTime));
         }
     }
 
@@ -161,7 +135,7 @@ public class CruiseMissile : MonoBehaviour, IDamageable
     
     void FindClosestTarget()
     {
-        Collider[] possibleTargets = Physics.OverlapSphere(transform.position, missileSO.range,
+        Collider[] possibleTargets = Physics.OverlapSphere(transform.position, Mathf.Infinity,
             missileSO.targetLayers);
 
         if (possibleTargets.Length > 0)

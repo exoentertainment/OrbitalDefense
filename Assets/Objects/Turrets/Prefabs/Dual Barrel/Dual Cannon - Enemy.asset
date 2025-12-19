@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f50c474bdc2e19cf8125dea9935f1ce, type: 3}
   m_Name: Dual Cannon - Enemy
   m_EditorClassIdentifier: 
-  projectileSO: {fileID: 11400000, guid: e9c3c50b7cdf6c09c92279f6f3e43d6f, type: 2}
+  projectileSO: {fileID: 11400000, guid: 838f1c0eb13258544856ec7c1992784d, type: 2}
   fireSFX: {fileID: 11400000, guid: 3661d497e38ff81e989455bce0ed3c09, type: 2}
   fireRate: 1
   baseTrackingSpeed: 100
@@ -20,5 +20,3 @@ MonoBehaviour:
   targetLayers:
     serializedVersion: 2
     m_Bits: 2112
-  trackingErrorMin: 0
-  trackingErrorMax: 0

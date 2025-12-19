@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Wave 4-2
   m_EditorClassIdentifier: 
   numSpawns: 20
-  mintimeBetweenSpawns: 8
-  maxtimeBetweenSpawns: 12
+  mintimeBetweenSpawns: 5
+  maxtimeBetweenSpawns: 8
   enemyShipsPrefabs:
   - {fileID: 8132743466787635932, guid: bfd82b0afd562a65ab773b47994d6eab, type: 3}
   - {fileID: 826825106735388711, guid: 15ab456ff4487fc2b9be7e8e94d604fb, type: 3}
