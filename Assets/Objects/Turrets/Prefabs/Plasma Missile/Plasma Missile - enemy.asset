@@ -12,14 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f50c474bdc2e19cf8125dea9935f1ce, type: 3}
   m_Name: Plasma Missile - enemy
   m_EditorClassIdentifier: 
-  projectileSO: {fileID: 11400000, guid: d9dd4fc80efa7148e923cf5350afe24c, type: 2}
+  projectileSO: {fileID: 11400000, guid: ed56b8caff3c08948a6b82fd16192427, type: 2}
   fireSFX: {fileID: 11400000, guid: c5c975e7b25ca7c729c6231bc72097e7, type: 2}
   fireRate: 5
   baseTrackingSpeed: 50
-  targetLoiterTime: 5
   barrelFireDelay: 0.3
   targetLayers:
     serializedVersion: 2
     m_Bits: 2112
-  trackingErrorMin: 0
-  trackingErrorMax: 0

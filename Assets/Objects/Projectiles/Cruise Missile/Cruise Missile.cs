@@ -144,14 +144,16 @@ public class CruiseMissile : MonoBehaviour, IDamageable
 
             for (int x = 0; x < possibleTargets.Length; x++)
             {
-                float distanceToEnemy =
-                    Vector3.Distance(possibleTargets[x].transform.position, transform.position);
-
-                if (distanceToEnemy < closestEnemy)
-                {
-                    closestEnemy = distanceToEnemy;
-                    target = possibleTargets[x].gameObject;
-                }
+                target = possibleTargets[Random.Range(0, possibleTargets.Length)].gameObject;
+                
+                // float distanceToEnemy =
+                //     Vector3.Distance(possibleTargets[x].transform.position, transform.position);
+                //
+                // if (distanceToEnemy < closestEnemy)
+                // {
+                //     closestEnemy = distanceToEnemy;
+                //     target = possibleTargets[x].gameObject;
+                // }
             }
         }
     }

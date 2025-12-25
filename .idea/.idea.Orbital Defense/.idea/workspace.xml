@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 1/Boss 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 1/Boss 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 2/Boss 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 2/Boss 2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Heavy Cruiser/Heavy Cruiser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Heavy Cruiser/Heavy Cruiser.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 2/Boss 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 2/Boss 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 3/Boss 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Bosses/Boss 3/Boss 3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Cruise Missile/Cruise Missile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Cruise Missile/Cruise Missile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Cruise Missile/Enemy/Cruise Missile SO - enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Cruise Missile/Enemy/Cruise Missile SO - enemy.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Plasma Missile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Plasma Missile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Ball - enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Ball - enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Projectile - enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Projectile - enemy.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Player/Plasma Ball - player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Player/Plasma Ball - player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Missile/Plasma Missile - enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Missile/Plasma Missile - enemy.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +341,9 @@
       <workItem from="1765600473471" duration="65000" />
       <workItem from="1766031176263" duration="2965000" />
       <workItem from="1766109167640" duration="3111000" />
-      <workItem from="1766570204438" duration="3440000" />
+      <workItem from="1766570204438" duration="3602000" />
+      <workItem from="1766627769956" duration="1270000" />
+      <workItem from="1766638637925" duration="740000" />
     </task>
     <servers />
   </component>
