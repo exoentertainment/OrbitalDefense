@@ -65,6 +65,9 @@ public class LaserTurret : BaseTurret
 
             lastTimeOnTarget = Time.time;
             
+            if(AudioManager.instance  != null)
+                AudioManager.instance.PlaySound(turretSO.fireSFX);
+            
             yield return new WaitForSeconds(laserDuration);
         
             isFiring = false;

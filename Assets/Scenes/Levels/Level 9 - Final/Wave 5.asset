@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 266c04b4b9a87821ba5c37819bcb7b76, type: 3}
-  m_Name: Wave 2
+  m_Name: Wave 5
   m_EditorClassIdentifier: 
-  numSpawns: 15
+  numSpawns: 20
   mintimeBetweenSpawns: 5
   maxtimeBetweenSpawns: 8
   enemyShipsPrefabs:
-  - {fileID: 5580504212120642270, guid: fa9ca1b55e442086d87413b2e65817d8, type: 3}
-  - {fileID: 1742835346186908, guid: 8d24c3d6c01b7b2adbc335f1360bf624, type: 3}
-  - {fileID: 1094562301623366, guid: 631f8ff229a0ab74ba2774b45eeb318d, type: 3}
   - {fileID: 8132743466787635932, guid: bfd82b0afd562a65ab773b47994d6eab, type: 3}
+  - {fileID: 6931135617903157613, guid: 46ed44fa519ebeaeab3506eab0797d4a, type: 3}
+  - {fileID: 1094562301623366, guid: 631f8ff229a0ab74ba2774b45eeb318d, type: 3}

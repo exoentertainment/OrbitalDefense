@@ -19,13 +19,11 @@ MonoBehaviour:
   turnSpeed: 2
   minMovementRadius: 0
   maxMovementRadius: 0
-  evadeDistance: 0
   minHealth: 8
   maxHealth: 12
-  explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
+  explosionPrefab: {fileID: 1593023632951020, guid: 8ebf5b1770572714bafe96c1dac86380, type: 3}
   explosionFrequency: 0.5
   explosionDuration: 2
   numExplosions: 0
-  reactorExplosionPrefab: {fileID: 0}
   pointValue: 25
   shipExplosion: {fileID: 0}

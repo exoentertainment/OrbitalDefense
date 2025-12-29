@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Plasma Missile - enemy
   m_EditorClassIdentifier: 
   projectileSO: {fileID: 11400000, guid: ed56b8caff3c08948a6b82fd16192427, type: 2}
-  fireSFX: {fileID: 11400000, guid: c5c975e7b25ca7c729c6231bc72097e7, type: 2}
+  fireSFX: {fileID: 11400000, guid: c52b57a11034cd244a08f20fb8bf80ea, type: 2}
   fireRate: 5
   baseTrackingSpeed: 50
   barrelFireDelay: 0.3

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Plasma Cannon - Player
   m_EditorClassIdentifier: 
   projectileSO: {fileID: 11400000, guid: 9fa318e6eee917877b5b13780f4e626b, type: 2}
-  fireSFX: {fileID: 11400000, guid: 3661d497e38ff81e989455bce0ed3c09, type: 2}
+  fireSFX: {fileID: 11400000, guid: 050d7dc93d206a844a0ef5c46dec118c, type: 2}
   fireRate: 5
   baseTrackingSpeed: 100
   barrelFireDelay: 0

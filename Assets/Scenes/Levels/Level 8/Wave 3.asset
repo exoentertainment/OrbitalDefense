@@ -18,4 +18,6 @@ MonoBehaviour:
   enemyShipsPrefabs:
   - {fileID: 5580504212120642270, guid: fa9ca1b55e442086d87413b2e65817d8, type: 3}
   - {fileID: 1742835346186908, guid: 8d24c3d6c01b7b2adbc335f1360bf624, type: 3}
+  - {fileID: 1094562301623366, guid: 631f8ff229a0ab74ba2774b45eeb318d, type: 3}
   - {fileID: 8132743466787635932, guid: bfd82b0afd562a65ab773b47994d6eab, type: 3}
+  - {fileID: 826825106735388711, guid: 15ab456ff4487fc2b9be7e8e94d604fb, type: 3}

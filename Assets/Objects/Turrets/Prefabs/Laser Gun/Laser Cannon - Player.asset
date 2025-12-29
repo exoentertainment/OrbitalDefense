@@ -13,12 +13,10 @@ MonoBehaviour:
   m_Name: Laser Cannon - Player
   m_EditorClassIdentifier: 
   projectileSO: {fileID: 11400000, guid: 90d699e8404cc42d0aad29214d490294, type: 2}
-  fireSFX: {fileID: 11400000, guid: 3661d497e38ff81e989455bce0ed3c09, type: 2}
+  fireSFX: {fileID: 11400000, guid: 36085e4e6b991f1419f5b0d15953dbd9, type: 2}
   fireRate: 3
   baseTrackingSpeed: 50
   barrelFireDelay: 0
   targetLayers:
     serializedVersion: 2
-    m_Bits: 132096
-  trackingErrorMin: 0
-  trackingErrorMax: 0
+    m_Bits: 140288

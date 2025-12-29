@@ -16,11 +16,14 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   moveSpeed: 15
-  deathSpeed: 0
   turnSpeed: 2
-  movementRadius: 250
+  minMovementRadius: 0
+  maxMovementRadius: 0
+  minHealth: 40
   maxHealth: 50
   explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
-  explosionDuration: 2
   explosionFrequency: 0.5
-  reactorExplosionPrefab: {fileID: 0}
+  explosionDuration: 2
+  numExplosions: 0
+  pointValue: 0
+  shipExplosion: {fileID: 0}
