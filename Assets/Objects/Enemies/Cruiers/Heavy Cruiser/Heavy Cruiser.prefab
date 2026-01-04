@@ -1730,7 +1730,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 3b8bd6e8c5b5217fe8a80607ee000ccd, type: 2}
     - target: {fileID: 2012577053861604930, guid: c38283ca2fd39cc8cb00ee3d1151c365, type: 3}
       propertyPath: amountToPool
-      value: 10
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2012577053861604930, guid: c38283ca2fd39cc8cb00ee3d1151c365, type: 3}
       propertyPath: objectToPool
@@ -4039,7 +4039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pooledObjects: []
   objectToPool: {fileID: 2581245511433833385, guid: 14d8e20c18a5e665ba12d7d6220e9514, type: 3}
-  amountToPool: 5
+  amountToPool: 2
 --- !u!114 &7023580612293642368
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -25,5 +25,5 @@ MonoBehaviour:
   explosionFrequency: 0.5
   explosionDuration: 2
   numExplosions: 0
-  pointValue: 20
+  pointValue: 40
   shipExplosion: {fileID: 0}

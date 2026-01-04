@@ -69,7 +69,7 @@ public class ResolutionSetting : MonoBehaviour
 
     public void CloseWindow()
     {
-        Time.timeScale = 1;
+        GameObject window = (GameObject)Instantiate(Resources.Load("Pause Menu"));
         Destroy(gameObject);
     }
 }

@@ -19,6 +19,4 @@ MonoBehaviour:
   barrelFireDelay: 1
   targetLayers:
     serializedVersion: 2
-    m_Bits: 32768
-  trackingErrorMin: 0
-  trackingErrorMax: 0
+    m_Bits: 32832

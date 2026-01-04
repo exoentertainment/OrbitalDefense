@@ -223,10 +223,6 @@ public class WeaponPlatformWindow : MonoBehaviour
         if(playSound && AudioManager.instance != null)
             AudioManager.instance.PlayUIClose();
         
-        // if(GameManager.instance != null)
-        //     if(!GameManager.instance.IsPaused())
-        //         Time.timeScale = 1;
-        
         Time.timeScale = 1;
         GameManager.instance.UnSlowGame();
         

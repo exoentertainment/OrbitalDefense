@@ -15,7 +15,7 @@ MonoBehaviour:
   speed: 150
   damage: 50
   duration: 2
-  range: 150
+  range: 500
   targetLayers:
     serializedVersion: 2
     m_Bits: 394240

@@ -19,6 +19,7 @@ public class MissileLauncherTurret : BaseTurret
         lastTimeOnTarget = Time.time;
         lastFireTime = Time.time;
         
+        
         foreach (Transform spawnPoint in spawnPoints)
         {
             // GameObject projectile = projectilePool.GetPooledObject(); 
@@ -34,6 +35,9 @@ public class MissileLauncherTurret : BaseTurret
 
             if (target != null)
             {
+                if(AudioManager.instance != null)
+                    AudioManager.instance.PlaySound(turretSO.fireSFX);
+                
                 GameObject projectile = Instantiate(turretSO.projectileSO.projectilePrefab, spawnPoint.position,
                     platformTurret.rotation);
                 
@@ -56,8 +60,5 @@ public class MissileLauncherTurret : BaseTurret
             
             yield return new WaitForSeconds(turretSO.barrelFireDelay);
         }
-        
-        if(AudioManager.instance != null)
-            AudioManager.instance.PlaySound(turretSO.fireSFX);
     }
 }

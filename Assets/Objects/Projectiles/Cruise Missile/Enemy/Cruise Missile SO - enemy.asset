@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9903850182eb4f16cbfb6c182c8f5311, type: 3}
   m_Name: Cruise Missile SO - enemy
   m_EditorClassIdentifier: 
-  speed: 7000
-  damage: 1
+  speed: 5000
+  damage: 2
   duration: 10
   range: 400
   targetLayers:

@@ -64,10 +64,12 @@ public class LaserTurret : BaseTurret
             }
 
             lastTimeOnTarget = Time.time;
-            
-            if(AudioManager.instance  != null)
+
+            if (AudioManager.instance != null)
+            {
                 AudioManager.instance.PlaySound(turretSO.fireSFX);
-            
+            }
+
             yield return new WaitForSeconds(laserDuration);
         
             isFiring = false;
@@ -106,5 +108,11 @@ public class LaserTurret : BaseTurret
         this.target = target;    
         lastTimeOnTarget = Time.time;
         lastFireTime = Time.time;
+    }
+    
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, laserRange);
     }
 }

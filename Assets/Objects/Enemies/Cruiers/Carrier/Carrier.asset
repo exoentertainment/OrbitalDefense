@@ -19,11 +19,11 @@ MonoBehaviour:
   turnSpeed: 2
   minMovementRadius: 150
   maxMovementRadius: 250
-  minHealth: 25
-  maxHealth: 30
-  explosionPrefab: {fileID: 1593023632951020, guid: 367e2ac454bc6c0b8b7afece73aca90e, type: 3}
+  minHealth: 30
+  maxHealth: 35
+  explosionPrefab: {fileID: 1593023632951020, guid: 6bbba95d5c70ece4aa0d28463eb37c75, type: 3}
   explosionFrequency: 0.5
   explosionDuration: 1
   numExplosions: 5
-  pointValue: 40
+  pointValue: 250
   shipExplosion: {fileID: 11400000, guid: 99a44a2b797e95ede992d5cba9fef69b, type: 2}

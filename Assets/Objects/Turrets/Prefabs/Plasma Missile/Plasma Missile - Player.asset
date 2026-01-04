@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectileSO: {fileID: 11400000, guid: 9cf5308d0d8505b0dbd0f1524687effe, type: 2}
   fireSFX: {fileID: 11400000, guid: c52b57a11034cd244a08f20fb8bf80ea, type: 2}
-  fireRate: 5
+  fireRate: 10
   baseTrackingSpeed: 50
-  barrelFireDelay: 0.5
+  barrelFireDelay: 1
   targetLayers:
     serializedVersion: 2
     m_Bits: 132096
