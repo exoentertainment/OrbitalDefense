@@ -6,48 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6397ce73-1ace-422f-99d0-98ffae5d252a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Orbital Defense/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Battlecruiser/Battlecruiser.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Battlecruiser/Battlecruiser.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Battlecruiser/Battlecruiser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Enemies/Cruiers/Battlecruiser/Battlecruiser.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Laser/Laser Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Laser/Laser Platform.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Laser/Laser Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Laser/Laser Platform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Missile/Plasma Missile Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Missile/Plasma Missile Platform.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Missile/Plasma Missile Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Plasma Missile/Plasma Missile Platform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Star Fort/Star Fort SO.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Star Fort/Star Fort SO.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Star Fort/Star Fort.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Star Fort/Star Fort.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Platforms/Star Fort/Star Fort.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Platforms/Star Fort/Star Fort.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Laser/Laser Projectile - Platform.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Laser/Laser Projectile - Platform.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Laser Turret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Laser Turret.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Missile Launcher Turret.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Attack Scripts/Missile Launcher Turret.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Basic Gun/Turret 1 SFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Basic Gun/Turret 1 SFX.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Dual Barrel/Turret 1 SFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Dual Barrel/Turret 1 SFX.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Laser Gun/Laser Cannon - Player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Laser Gun/Laser Cannon - Player.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Laser Gun/Laser Turret SFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Laser Gun/Laser Turret SFX.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Laser Gun/Laser Turret.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Laser Gun/Laser Turret.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Gun/Plasma Turret SFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Gun/Plasma Turret SFX.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Missile/Plasma Missile Turret SFX.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Missile/Plasma Missile Turret SFX.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/UI/UI.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/UI/Weapon Platform Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/UI/Weapon Platform Window.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio Settings.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Audio Settings.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio Settings.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Audio Settings.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Controls Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Controls Window.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Controls Window.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Controls Window.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Resolution Setting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Resolution Setting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 1/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 2/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 3/Level 3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 3/Level 3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 4/Level 4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 4/Level 4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 5/Level 5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 5/Level 5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6/Level 6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 6/Level 6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 7/Level 7.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 8/Level 8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 8/Level 8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Level 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Level 9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Wave 4-2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Wave 4-2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Wave 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Wave 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Wave 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Level 9 - Final/Wave 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/testing.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/testing/testing.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/testing/testing.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Cruise Missile/Enemy/Plasma Cruise Missile SO - enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Cruise Missile/Enemy/Plasma Cruise Missile SO - enemy.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Player/Plasma Missile - player.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma Missile/Player/Plasma Missile - player.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Ball - enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Ball - enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Projectile - enemy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Projectiles/Plasma/Enemy/Plasma Projectile - enemy.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Gun/Plasma Turret.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Turrets/Prefabs/Plasma Gun/Plasma Turret.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Testing Level/Testing Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Testing Level/Testing Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels/Testing Level/Wave 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Levels/Testing Level/Wave 1.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -381,7 +348,8 @@
       <workItem from="1766978877615" duration="294000" />
       <workItem from="1766983932082" duration="1297000" />
       <workItem from="1767315273899" duration="1832000" />
-      <workItem from="1767503354000" duration="765000" />
+      <workItem from="1767503354000" duration="1404000" />
+      <workItem from="1767597321562" duration="615000" />
     </task>
     <servers />
   </component>

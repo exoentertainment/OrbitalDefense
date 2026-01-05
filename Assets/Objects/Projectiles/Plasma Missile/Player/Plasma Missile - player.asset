@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Plasma Missile - player
   m_EditorClassIdentifier: 
   speed: 5000
-  damage: 1
+  damage: 2
   duration: 5
   range: 400
   targetLayers:
     serializedVersion: 2
-    m_Bits: 394240
+    m_Bits: 427008
   projectilePrefab: {fileID: 1823173409967616, guid: 7a026e0908a7f460cb06b424cc367ca3, type: 3}
   dischargePrefab: {fileID: 1237854105968354, guid: cdc36044d7cf5357f873c97a3caeb78d, type: 3}
   impactPrefab: {fileID: 1351045683517926, guid: b23574ac9e528522ab92c91597d6dd75, type: 3}

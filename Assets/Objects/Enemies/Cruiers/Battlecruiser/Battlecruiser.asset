@@ -26,4 +26,4 @@ MonoBehaviour:
   explosionDuration: 1
   numExplosions: 5
   pointValue: 400
-  shipExplosion: {fileID: 0}
+  shipExplosion: {fileID: 11400000, guid: 99d005673aee4c977928858ccbf63e51, type: 2}
