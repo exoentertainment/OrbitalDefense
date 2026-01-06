@@ -3466,9 +3466,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 497283967630075862, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 400.6
+      objectReference: {fileID: 0}
     - target: {fileID: 574227821999699244, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 933654921557344486, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_text
+      value: Space provides no shortage of worlds and resources for us to use in
+        our fight. This binary system provides a wealth of resources...and oppotunities
+        for the enemy. We've developed new long-range missiles to guard the sprawling
+        space between planets.
       objectReference: {fileID: 0}
     - target: {fileID: 1144980625953026450, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3626,6 +3637,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4285217621641369237, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4713766199781082312, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 125.4
+      objectReference: {fileID: 0}
     - target: {fileID: 4870509575100121735, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -3705,6 +3724,10 @@ PrefabInstance:
     - target: {fileID: 6452927167388041514, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7271238084875072328, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -137.5
       objectReference: {fileID: 0}
     - target: {fileID: 8209707451045018797, guid: b4fce1474f9a1f14297258fd9f62e551, type: 3}
       propertyPath: m_AnchorMax.y

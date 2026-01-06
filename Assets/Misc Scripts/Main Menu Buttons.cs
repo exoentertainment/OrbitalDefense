@@ -8,11 +8,6 @@ public class MainMenuButtons : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void EndlessMode()
-    {
-        
-    }
-
     public void Settings()
     {
         GameObject window = (GameObject)Instantiate(Resources.Load("Settings Menu"));
